@@ -1,0 +1,19 @@
+# ISL 2022 G2
+Action(BaseAcuteTriangle, "", "CBA")
+Action(PerpendicularLine, "BAC", "F")
+Action(AnyPoint, "AF", "P")
+Action(Parallel, "PACB", "D")
+Action(Parallel, "PABC", "E")
+Action(CircumscribedCircle, "ADB", "G")
+Action(CircumscribedCircle, "AEC", "H")
+Action(PerpendicularLine, "DAG", "x")
+Action(PerpendicularLine, "EAH", "y")
+Action(ExtendEqual, "Ax", "X")
+Action(ExtendEqual, "Ay", "Y")
+
+# Action(IntersectLineCircleOn, "PDG", "U")
+# Action(IntersectLineCircleOn, "PEH", "V")
+Action(PerpendicularLine, "GAH", "z")
+# Action(ExtendEqual, "Az", "Z")
+
+Fact("eqcircle", [Circle(None, [*"BCX"]), Circle(None, [*"BCY"])])

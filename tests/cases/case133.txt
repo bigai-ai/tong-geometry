@@ -1,0 +1,14 @@
+# USAJMO 2010 P1
+Action(BaseAcuteTriangle, "", "BAz")
+Action(MidPoint, "AB", "O")
+Action(CenterCircle, "OA")
+Action(IntersectLineCircleOn, "zAO", "X")
+Action(IntersectLineCircleOn, "zBO", "Z")
+Action(AnyArc, "ZXO", "Y")
+Action(PerpendicularLine, "XYA", "P")
+Action(PerpendicularLine, "BYZ", "S")
+Action(PerpendicularLine, "BYX", "Q")
+Action(PerpendicularLine, "AYZ", "R")
+Action(IntersectLineLine, "PQRS", "T")
+
+Fact("eqangle", [Angle(*"STP"),Angle(*"ZBX")])

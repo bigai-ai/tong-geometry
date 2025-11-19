@@ -1,0 +1,16 @@
+# Newton Line
+Action(BaseAcuteTriangle, "", "ACB")
+Action(CircumscribedCircle, "ABC", "O")
+Action(AnyArc, "CAO", "D")
+Action(IntersectLineLine, "ABCD", "E")
+Action(IntersectLineLine, "BCDA", "F")
+Action(MidPoint, "BD", "L")
+Action(MidPoint, "AC", "M")
+Action(MidPoint, "EF", "N")
+
+Action(ExtendEqual, "BN", "Q")
+Action(Parallel, "ABFQ", "S")
+Action(Parallel, "CBEQ", "R")
+Action(IntersectLineLine, "ASCR", "P")
+
+Fact("eqline", [Segment(*"LM"), Segment(*"MN")])

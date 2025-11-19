@@ -1,0 +1,21 @@
+# China TST 2008 T1 P1
+Action(BaseAcuteTriangle, "", "CBA")
+Action(InCenter, "ABC", "I")
+Action(PerpendicularLine, "BIC", "E")
+Action(CenterCircle, "IE")
+Action(IntersectLineCircleOn, "AEI", "D")
+Action(CenterCircle, "CE")
+Action(IntersectLineCircleOn, "AEC", "F")
+Action(IntersectLineLine, "CFBD", "G")
+
+Action(PerpendicularLine, "AIC", "Y")
+Action(PerpendicularLine, "AIB", "Z")
+Action(MidPoint, "YZ", "W")
+Action(Parallel, "DFCA", "N")
+# Action(IntersectLineLine, "DNAB", "M")
+# Action(IntersectLineLine, "MNBC", "T")
+# Action(IntersectLineCircleOn, "BDI", "Q")
+Action(IntersectLineCircleOn, "DYC", "P")
+Action(MidPoint, "ZE", "H")
+
+Fact("midp", ["F", Segment(*"CG")])

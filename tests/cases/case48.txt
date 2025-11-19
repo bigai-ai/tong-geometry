@@ -1,0 +1,17 @@
+# IMO 2015 P4
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(PerpendicularLine, "BAC", "Z")
+Action(AnyPoint, "AZ", "a")
+Action(AnyPoint, "Aa", "b")
+Action(CenterCircle, "Zb")
+Action(IntersectLineCircleOff, "CBZb", "ED")
+Action(CenterCircle, "AE")
+Action(IntersectCircleCircle, "AEOA", "FG")
+Action(CircumscribedCircle, "BDG", "Y")
+Action(IntersectLineCircleOn, "ABY", "K")
+Action(CircumscribedCircle, "CFE", "W")
+Action(IntersectLineCircleOn, "ACW", "L")
+Action(IntersectLineLine, "GKFL", "X")
+
+Fact("eqline", [Segment(*"AO"), Segment(*"AX")])

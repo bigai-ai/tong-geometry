@@ -1,0 +1,17 @@
+# China TST 2004 Q1 P1
+Action(BaseAcuteTriangle, "", "ABC")
+Action(MidPoint, "AC", "E")
+Action(MidPoint, "BC", "F")
+Action(AnyPoint, "EF", "X")
+Action(CenterCircle, "EA", "")
+Action(CenterCircle, "FB", "")
+Action(IntersectLineCircleOn, "XCE", "e")
+Action(IntersectLineCircleOn, "XCF", "f")
+Action(Parallel, "eBCA", "G")
+Action(Parallel, "fACB", "g")
+Action(IntersectLineCircleOn, "GeE", "I")
+Action(IntersectLineCircleOn, "gfF", "J")
+Action(IntersectLineLine, "eGgf", "D")
+Action(PerpendicularLine, "ACB", "H")
+
+Fact("eqcircle", [Circle(None, [*"HDI"]), Circle(None, [*"HDJ"])])

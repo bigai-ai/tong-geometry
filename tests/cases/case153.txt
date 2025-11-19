@@ -1,0 +1,20 @@
+# ISL 1980 P9
+Action(BaseAcuteTriangle, "", "ABZ")
+Action(MidPoint, "AB", "O")
+Action(CenterCircle, "OA")
+Action(Perpendicular, "AOZ", "C")
+Action(Perpendicular, "BOZ", "z")
+Action(IntersectLineCircleOn, "ZAO", "D")
+Action(IntersectLineCircleOn, "ZBO", "E")
+Action(IntersectLineCircleOn, "CDO", "d")
+Action(IntersectLineCircleOn, "CEO", "e")
+Action(IntersectLineLine, "BzAE", "F")
+Action(IntersectLineLine, "BzAe", "G")
+Action(IntersectLineLine, "BzAZ", "H")
+Action(IntersectLineLine, "BzAd", "I")
+
+Action(PerpendicularLine, "ZAO", "a")
+Action(ExtendEqual, "Aa", "T")
+Action(IntersectLineLine, "AaBz", "J")
+
+Fact("cong", [Segment(*"HF"), Segment(*"GI")])

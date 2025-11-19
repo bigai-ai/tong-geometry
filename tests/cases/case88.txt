@@ -1,0 +1,14 @@
+# China TST 2005 D1 P1
+Action(BaseAcuteTriangle, "", "ACB")
+Action(CircumscribedCircle, "ABC", "O")
+Action(AnyArc, "CAO", "D")
+Action(IntersectLineLine, "ACBD", "P")
+Action(AnyArc, "CDO", "E")
+Action(CircumscribedCircle, "PBE", "Y")
+Action(AnyArc, "EDO", "F")
+Action(CircumscribedCircle, "PAF", "X")
+Action(PerpendicularLine, "XPY", "a")
+Action(ExtendEqual, "Pa", "Q")
+Action(IntersectLineLine, "CEDF", "Z")
+
+Fact("eqline", [Segment(*"ZP"), Segment(*"ZQ")])

@@ -1,0 +1,20 @@
+# TSTST 2012 P2
+Action(BaseAcuteTriangle, "", "CBP")
+Action(MidPoint, "BC", "Z")
+Action(ExtendEqual, "ZB", "X")
+Action(ExtendEqual, "ZC", "Y")
+Action(CenterCircle, "BY")
+Action(CenterCircle, "CX")
+Action(IntersectLineCircleOff, "BPBY", "FD")
+Action(IntersectLineCircleOff, "CPCX", "EA")
+Action(CircumscribedCircle, "ABP", "G")
+Action(CircumscribedCircle, "CDP", "H")
+Action(IntersectLineCircleOn, "XBG", "S")
+Action(IntersectLineCircleOn, "YCH", "T")
+Action(MidArc, "SPG", "M")
+Action(MidArc, "PTH", "N")
+
+Action(PerpendicularLine, "GPH", "W")
+Action(ExtendEqual, "PW", "Q")
+
+Fact("para", [Segment(*"MN"), Segment(*"GH")])

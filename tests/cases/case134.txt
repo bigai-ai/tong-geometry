@@ -1,0 +1,18 @@
+# TSTST 2017 P1
+Action(BaseAcuteTriangle, "", "CBA")
+Action(PerpendicularLine, "ABC", "E")
+Action(PerpendicularLine, "ACB", "F")
+Action(IntersectLineLine, "BECF", "H")
+Action(CircumscribedCircle, "ABC", "O")
+Action(MidPoint, "AB", "M")
+Action(MidPoint, "AC", "N")
+Action(Perpendicular, "AOH", "G")
+Action(IntersectLineLine, "AGMN", "P")
+Action(CircumscribedCircle, "AEF", "D")
+Action(PerpendicularLine, "DAO", "Z")
+Action(IntersectLineLine, "AZEF", "R")
+Action(IntersectLineLine, "OHPR", "I")
+
+Action(MidPoint, "OH", "X")
+
+Fact("perp", [Angle(*"PIO")])

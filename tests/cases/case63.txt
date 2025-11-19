@@ -1,0 +1,12 @@
+# IMO 2003 P4
+Action(BaseAcuteTriangle, "", "DBA")
+Action(CircumscribedCircle, "DBA", "O")
+Action(Perpendicular, "BOD", "Z")
+Action(MidPoint, "BD", "Y")
+Action(IntersectLineLine, "BZOY", "X")
+Action(IntersectLineCircleOn, "XAO", "C")
+Action(PerpendicularLine, "BDC", "P")
+Action(PerpendicularLine, "ADX", "Q")
+Action(PerpendicularLine, "ADB", "R")
+
+Fact("cong", [Segment(*"PQ"), Segment(*"QR")])

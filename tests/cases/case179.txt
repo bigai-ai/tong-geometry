@@ -1,0 +1,15 @@
+# ISL 2017 G3
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(PerpendicularLine, "ABC", "b")
+Action(PerpendicularLine, "ACB", "c")
+Action(IntersectLineLine, "OABb", "P")
+Action(IntersectLineLine, "OACc", "Q")
+Action(IntersectLineLine, "BbCc", "H")
+Action(CircumscribedCircle, "PHQ", "T")
+Action(IntersectLineLine, "ATBC", "M")
+
+Action(IntersectLineLine, "AOBC", "s")
+Action(Perpendicular, "AsB", "S")
+
+Fact("midp", ["M", Segment(*"BC")])

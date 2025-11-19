@@ -1,0 +1,14 @@
+# IMO 1985 P5
+Action(BaseAcuteTriangle, "", "CAB")
+Action(CircumscribedCircle, "ABC", "D")
+Action(MidPoint, "AC", "Z")
+Action(ExtendEqual, "DZ", "Y")
+Action(AnyPoint, "ZY", "X")
+Action(CircumscribedCircle, "XAC", "O")
+Action(IntersectLineCircleOn, "BAO", "K")
+Action(IntersectLineCircleOn, "BCO", "N")
+Action(CircumscribedCircle, "KNB", "E")
+Action(PerpendicularLine, "EBD", "a")
+Action(ExtendEqual, "Ba", "M")
+
+Fact("perp", [Angle(*"OMB")])

@@ -1,0 +1,17 @@
+# China TST 2014 T1 P1
+Action(BaseAcuteTriangle, "", "ACB")
+Action(CircumscribedCircle, "ABC", "O")
+Action(PerpendicularLine, "ABC", "Z")
+Action(IntersectLineCircleOn, "ZBO", "D")
+Action(AnyPoint, "BZ", "a")
+Action(Parallel, "aACB", "F")
+Action(Parallel, "aCAB", "E")
+Action(Parallel, "FBDC", "G")
+Action(PerpendicularLine, "CED", "P")
+Action(PerpendicularLine, "DFA", "Q")
+Action(PerpendicularLine, "AGB", "R")
+
+Action(IntersectLineLine, "FGAC", "Y")
+Action(IntersectLineLine, "GRFQ", "M")
+
+Fact("eqangle", [Angle(*"FQP"), Angle(*"RQF")])

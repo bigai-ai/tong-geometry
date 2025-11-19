@@ -1,0 +1,13 @@
+# ISL 2023 G5
+Action(BaseAcuteTriangle, "", "BCA")
+Action(CircumscribedCircle, "BCA", "O")
+Action(PerpendicularLine, "ABC", "d")
+Action(IntersectLineCircleOn, "dBO", "D")
+Action(IntersectLineLine, "COAB", "X")
+Action(CircumscribedCircle, "BXD", "x")
+Action(CircumscribedCircle, "BOC", "t")
+Action(IntersectLineCircleOn, "AOt", "T")
+
+Action(ExtendEqual, "CO", "c")
+
+Fact("cong", [Segment(*"xT"), Segment(*"xB")])

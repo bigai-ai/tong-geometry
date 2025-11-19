@@ -1,0 +1,19 @@
+# China TST 2017 T3 P2
+Action(BaseAcuteTriangle, "", "CBz")
+Action(AnyPoint, "Cz", "D")
+Action(AnyPoint, "Bz", "A")
+Action(PerpendicularLine, "BAC", "P")
+Action(PerpendicularLine, "BAD", "Q")
+Action(PerpendicularLine, "CAD", "R")
+Action(PerpendicularLine, "ADC", "X")
+Action(PerpendicularLine, "BDC", "Y")
+Action(PerpendicularLine, "zDB", "Z")
+Action(IntersectLineLine, "AQDZ", "H")
+Action(CircumscribedCircle, "PRQ", "F")
+Action(CircumscribedCircle, "XYZ", "G")
+Action(IntersectCircleCircle, "FPGX", "JI")
+Action(IntersectLineLine, "IJBH", "K")
+
+Action(IntersectLineLine, "BHAD", "L")
+
+Fact("midp", ["K", Segment(*"BH")])

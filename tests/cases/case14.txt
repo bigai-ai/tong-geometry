@@ -1,0 +1,11 @@
+# USAMO 2023 P1
+Action(BaseAcuteTriangle, "", "CBA")
+Action(MidPoint, "BC", "M")
+Action(PerpendicularLine, "ACM", "P")
+Action(CircumscribedCircle, "ABP", "O")
+Action(IntersectLineCircleOn, "CBO", "Q")
+Action(MidPoint, "AQ", "N")
+
+# Action(PerpendicularLine, "BAC", "X")
+
+Fact("cong", [Segment(*"BN"), Segment(*"CN")])

@@ -1,0 +1,17 @@
+# ISL 2021 G4
+Action(BaseAcuteTriangle, "", "CAB")
+Action(CircumscribedCircle, "CAB", "O")
+Action(AnyArc, "ACO", "D")
+Action(Perpendicular, "DOB", "d")
+Action(IntersectLineLine, "BADd", "E")
+Action(IntersectLineLine, "BCDd", "F")
+Action(Parallel, "ECDA", "G")
+Action(Parallel, "FADC", "H")
+Action(IntersectLineLine, "EGFH", "T")
+Action(CenterCircle, "TD")
+Action(IntersectLineCircleOn, "FDT", "K")
+Action(IntersectLineLine, "ACBK", "I")
+
+Action(IntersectLineLine, "ACEG", "P")
+
+Fact("eqline", [Segment(*"DI"), Segment(*"TI")])

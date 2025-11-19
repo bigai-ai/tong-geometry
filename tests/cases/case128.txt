@@ -1,0 +1,15 @@
+# USAJMO 2014 P6
+Action(BaseAcuteTriangle, "", "CBA")
+Action(InCenter, "ABC", "I")
+Action(CircumscribedCircle, "ABC", "O")
+Action(PerpendicularLine, "AIC", "E")
+Action(PerpendicularLine, "AIB", "F")
+Action(MidPoint, "BC", "M")
+Action(MidPoint, "AC", "N")
+Action(MidPoint, "AB", "P")
+Action(IntersectLineLine, "EFMN", "U")
+Action(IntersectLineLine, "EFMP", "V")
+Action(MidArc, "CBO", "X")
+Action(IntersectLineLine, "EFXI", "Y")
+
+Fact("midp", ["Y", Segment(*"UV")])

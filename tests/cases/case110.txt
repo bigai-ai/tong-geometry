@@ -1,0 +1,14 @@
+# China TST 2010 T2 P4
+Action(BaseAcuteTriangle, "", "CBA")
+Action(PerpendicularLine, "BAC", "D")
+Action(MidPoint, "AB", "M")
+Action(MidPoint, "AC", "N")
+Action(CircumscribedCircle, "MBD", "X")
+Action(CircumscribedCircle, "NCD", "Y")
+Action(PerpendicularLine, "XDY", "a")
+Action(ExtendEqual, "Da", "K")
+Action(AnyPoint, "BC", "P")
+Action(Parallel, "PBAC", "E")
+Action(Parallel, "PCAB", "F")
+
+Fact("eqcircle", [Circle(None, [*"KEA"]), Circle(None, [*"KEF"])])

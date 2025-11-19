@@ -1,0 +1,21 @@
+# TSTST 2019 P5
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(PerpendicularLine, "ABC", "X")
+Action(PerpendicularLine, "ACB", "Y")
+Action(IntersectLineLine, "BXCY", "H")
+Action(AnyPoint, "BC", "Z")
+Action(AnyPoint, "OZ", "W")
+Action(IntersectLineLine, "HWAB", "E")
+Action(IntersectLineLine, "HWAC", "F")
+Action(CircumscribedCircle, "AEF", "K")
+Action(IntersectLineCircleOn, "KAO", "D")
+Action(PerpendicularLine, "BDC", "G")
+Action(IntersectLineLine, "DGHK", "I")
+
+Action(CircumscribedCircle, "BEH", "J")
+Action(CircumscribedCircle, "CFH", "L")
+Action(PerpendicularLine, "JHL", "M")
+Action(ExtendEqual, "HM", "N")
+
+Fact("cong", [Segment(*"OA"), Segment(*"OI")])

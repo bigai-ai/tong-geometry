@@ -1,0 +1,8 @@
+Action(BaseAcuteTriangle, "", "BAC")
+Action(CircumscribedCircle, "ABC", "O")
+Action(PerpendicularLine, "ACB", "D")
+Action(IntersectLineCircleOn, "DCO", "M")
+Action(IntersectLineCircleOn, "OCO", "N")
+# Action(MidArc, "ABO", "F")
+
+Fact("cong", [Segment(*"AN"), Segment(*"BM")])

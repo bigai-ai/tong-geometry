@@ -1,0 +1,12 @@
+# IMO 2016 P1
+Action(BaseAcuteTriangle, "", "BAZ")
+Action(CircumscribedCircle, "BAZ", "z")
+Action(MidArc, "BAz", "D")
+Action(InCenter, "BAD", "F")
+Action(MidArc, "BDz", "M")
+Action(MidArc, "DAz", "E")
+Action(MidPoint, "EM", "x")
+Action(ExtendEqual, "Ax", "X")
+Action(IntersectLineLine, "FXEM", "S")
+
+Fact("eqline", [Segment(*"BS"), Segment(*"DS")])

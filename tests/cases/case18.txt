@@ -1,0 +1,15 @@
+# USAMO 2014 P5
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(PerpendicularLine, "BAC", "D")
+Action(PerpendicularLine, "ABC", "E")
+Action(IntersectLineLine, "ADBE", "H")
+Action(CircumscribedCircle, "AHC", "I")
+Action(InCenter, "ABC", "Z")
+Action(IntersectLineCircleOn, "ZAI", "P")
+Action(CircumscribedCircle, "APB", "X")
+Action(PerpendicularLine, "ACZ", "K")
+Action(PerpendicularLine, "APC", "L")
+Action(IntersectLineLine, "PLKC", "Y")
+
+Fact("cong", [Segment(*"XY"), Segment(*"OY")])

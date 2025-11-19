@@ -1,0 +1,18 @@
+# IMO 2012 P5
+Action(BaseAcuteTriangle, "", "BAZ")
+Action(MidPoint, "BA", "O")
+Action(CenterCircle, "OA", "")
+Action(AnyArc, "BAO", "C")
+Action(PerpendicularLine, "ACO", "D")
+Action(AnyPoint, "CD", "X")
+Action(CenterCircle, "BC")
+Action(IntersectLineCircleOff, "AXBC", "KY")
+Action(CenterCircle, "AC")
+Action(IntersectLineCircleOff, "BXAC", "WL")
+Action(IntersectLineLine, "ALBK", "M")
+
+Action(IntersectLineCircleOn, "XAO", "P")
+# Action(IntersectLineCircleOn, "XBO", "Q")
+# Action(IntersectLineLine, "AQBP", "R")
+
+Fact("cong", [Segment(*"MK"), Segment(*"ML")])

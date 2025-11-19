@@ -1,0 +1,10 @@
+# ISL 2023 G1
+Action(BaseAcuteTriangle, "", "BEX")
+Action(CircumscribedCircle, "XBE", "o")
+Action(ExtendEqual, "Xo", "A")
+Action(Parallel, "ABXE", "D")
+Action(Parallel, "AEXB", "C")
+Action(CircumscribedCircle, "ACD", "O")
+Action(IntersectLineLine, "AOBE", "M")
+
+Fact("cong", [Segment(*"BM"), Segment(*"EM")])

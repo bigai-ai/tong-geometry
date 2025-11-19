@@ -1,0 +1,13 @@
+# China TST 2002 T1 P1
+Action(BaseAcuteTriangle, "", "ACB")
+Action(CircumscribedCircle, "ABC", "Z")
+Action(AnyArc, "CAZ", "D")
+Action(IntersectLineLine, "ABCD", "E")
+Action(IntersectLineLine, "ADBC", "F")
+Action(IntersectLineLine, "ACBD", "P")
+Action(PerpendicularLine, "EPF", "O")
+
+Action(IntersectLineLine, "EFAC", "Q")
+Action(IntersectLineLine, "DBEF", "X")
+
+Fact("eqangle", [Angle(*"DOA"), Angle(*"COB")])

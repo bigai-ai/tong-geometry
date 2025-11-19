@@ -1,0 +1,9 @@
+# USAMO 1988 P4
+Action(BaseAcuteTriangle, "", "CAB")
+# Action(CircumscribedCircle, "ABC", "O")
+Action(InCenter, "ABC", "I")
+Action(CircumscribedCircle, "BCI", "G")
+Action(CircumscribedCircle, "ACI", "H")
+Action(CircumscribedCircle, "ABI", "J")
+
+Fact("eqcircle", [Circle(None, [*"ABC"]), Circle(None, [*"GHJ"])])

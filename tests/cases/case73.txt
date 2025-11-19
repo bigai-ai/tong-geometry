@@ -1,0 +1,15 @@
+# IMO 1984 P4
+Action(BaseAcuteTriangle, "", "BAZ")
+Action(MidPoint, "AB", "O")
+Action(CenterCircle, "OA", "")
+Action(AnyArc, "BAO", "T")
+Action(Perpendicular, "TOB", "c")
+Action(AnyPoint, "TZ", "P")
+Action(Parallel, "BOPc", "X")
+Action(Parallel, "AOPc", "Y")
+Action(IntersectLineLine, "BXTc", "C")
+Action(IntersectLineLine, "AYTc", "D")
+Action(MidPoint, "CD", "M")
+Action(PerpendicularLine, "AMB", "E")
+
+Fact("cong", [Segment(*"EM"), Segment(*"CM")])

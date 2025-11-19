@@ -1,0 +1,18 @@
+# USAMO 2012 P5
+Action(BaseAcuteTriangle, "", "ABC")
+Action(AnyPoint, "AC", "M")
+Action(AnyPoint, "BC", "N")
+Action(AnyPoint, "MN", "P")
+Action(PerpendicularLine, "MAN", "a")
+Action(PerpendicularLine, "MBN", "b")
+Action(PerpendicularLine, "MCN", "c")
+Action(ExtendEqual, "Bb", "E")
+Action(ExtendEqual, "Aa", "D")
+Action(ExtendEqual, "Cc", "F")
+Action(IntersectLineLine, "DPBC", "G")
+Action(IntersectLineLine, "EPAC", "H")
+Action(IntersectLineLine, "FPAB", "I")
+
+Action(IsogonalConjugate, "ABCP", "Q")
+
+Fact("eqline", [Segment(*"GH"), Segment(*"GI")])

@@ -1,0 +1,23 @@
+# China TST 2011 T3 P4
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(PerpendicularLine, "BAC", "D")
+Action(PerpendicularLine, "ABC", "E")
+Action(IntersectLineLine, "ADBE", "H")
+Action(AnyArc, "BCO", "P")
+Action(IntersectLineCircleOn, "HPO", "M")
+Action(PerpendicularLine, "BPC", "G")
+# Action(PerpendicularLine, "APC", "I")
+Action(PerpendicularLine, "APB", "L")
+Action(Parallel, "MGLA", "N")
+Action(IntersectLineCircleOn, "NMO", "K")
+Action(MidPoint, "BC", "R")
+Action(PerpendicularLine, "OPR", "a")
+Action(ExtendEqual, "Pa", "Q")
+Action(IntersectLineLine, "KQBC", "J")
+
+# Action(IntersectLineCircleOn, "GPO", "S")
+Action(IntersectLineLine, "BCPH", "T")
+Action(IntersectLineCircleOn, "HAO", "U")
+
+Fact("cong", [Segment(*"JK"), Segment(*"JM")])

@@ -1,0 +1,13 @@
+# ISL 2016 G4
+Action(BaseAcuteTriangle, "", "CBZ")
+Action(CircumscribedCircle, "CBZ", "O")
+Action(MidArc, "CBO", "A")
+Action(InCenter, "ABC", "I")
+Action(IntersectLineLine, "BIAC", "D")
+Action(Perpendicular, "DAI", "E")
+Action(PerpendicularLine, "AIC", "x")
+Action(ExtendEqual, "Ix", "X")
+
+Action(ExtendEqual, "CD", "F")
+
+Fact("eqcircle", [Circle(None, [*"BDE"]), Circle(None, [*"BDX"])])

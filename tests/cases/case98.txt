@@ -1,0 +1,13 @@
+# China TST 2016 T1 P1
+Action(BaseAcuteTriangle, "", "EAZ")
+Action(CircumscribedCircle, "EAZ", "O")
+Action(MidArc, "AEO", "C")
+Action(MidArc, "ACO", "B")
+Action(MidArc, "CEO", "D")
+Action(CircumscribedCircle, "BDO", "G")
+Action(IntersectLineCircleOff, "AEGB", "KH")
+Action(PerpendicularLine, "KCO", "a")
+Action(ExtendEqual, "Ca", "F")
+
+Fact("eqangle", [Angle(*"BKC"), Angle(*"KFE")])
+Fact("eqangle", [Angle(*"CKD"), Angle(*"AFK")])

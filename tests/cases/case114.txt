@@ -1,0 +1,16 @@
+# China TST 2008 T2 P4
+Action(BaseAcuteTriangle, "", "CBA")
+Action(AnyPoint, "AB", "F")
+Action(AnyPoint, "AC", "E")
+Action(IntersectLineLine, "EFBC", "D")
+Action(CircumscribedCircle, "AEF", "G")
+Action(CircumscribedCircle, "BFD", "H")
+Action(CircumscribedCircle, "CDE", "I")
+Action(PerpendicularLine, "HGI", "J")
+Action(PerpendicularLine, "GHI", "K")
+Action(IntersectLineLine, "GJHK", "M")
+
+Action(PerpendicularLine, "GEI", "a")
+Action(ExtendEqual, "Ea", "N")
+
+Fact("eqline", [Segment(*"ME"), Segment(*"MF")])

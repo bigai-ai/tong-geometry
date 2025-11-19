@@ -1,0 +1,17 @@
+# China TST 2008 T4 P1
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(MidArc, "CAO", "M")
+Action(MidArc, "ABO", "N")
+Action(MidPoint, "MN", "D")
+Action(AnyArc, "BCO", "G")
+Action(InCenter, "ABC", "E")
+Action(InCenter, "ABG", "J")
+Action(InCenter, "ACG", "Q")
+Action(CircumscribedCircle, "GJQ", "U")
+Action(PerpendicularLine, "UGO", "a")
+Action(ExtendEqual, "Ga", "V")
+
+Action(Parallel, "AMDE", "W")
+
+Fact("eqline", [Segment(*"DE"), Segment(*"DV")])

@@ -1,0 +1,11 @@
+# Apollonian circle
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(IntersectLineLine, "AOBC", "D")
+Action(Perpendicular, "ADB", "T")
+Action(CenterCircle, "TA")
+Action(IntersectLineCircleOff, "BCTA", "EF")
+Action(AnyArc, "AFT", "G")
+
+Fact("eqratio", [Ratio(Segment(*"CE"), Segment(*"EB")), Ratio(Segment(*"CF"), Segment(*"BF"))])
+Fact("eqratio", [Ratio(Segment(*"GB"), Segment(*"GC")), Ratio(Segment(*"AB"), Segment(*"AC"))])

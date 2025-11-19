@@ -1,0 +1,15 @@
+# IMO 1983 P2
+Action(BaseAcuteTriangle, "", "XYZ")
+Action(Perpendicular, "YXZ", "B")
+Action(Perpendicular, "XYZ", "C")
+Action(CenterCircle, "BY")
+Action(CenterCircle, "CX")
+Action(PerpendicularLine, "BXC", "D")
+Action(PerpendicularLine, "BYC", "E")
+Action(IntersectCircleCircle, "CXBY", "FA")
+
+Action(ExtendEqual, "XD", "U")
+Action(ExtendEqual, "YE", "V")
+Action(IntersectLineLine, "XYUV", "G")
+
+Fact("eqangle", [Angle(*"CAB"), Angle(*"DAE")])

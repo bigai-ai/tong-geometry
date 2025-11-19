@@ -1,0 +1,19 @@
+# ISL 2016 G5
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "CBA", "O")
+Action(MidPoint, "BC", "M")
+Action(PerpendicularLine, "BAC", "P")
+Action(PerpendicularLine, "ABC", "b")
+Action(PerpendicularLine, "ACB", "c")
+Action(IntersectLineLine, "BbCc", "H")
+Action(PerpendicularLine, "OAH", "D")
+Action(MidPoint, "AD", "S")
+Action(CenterCircle, "SA")
+Action(IntersectLineCircleOn, "BAS", "X")
+Action(IntersectLineCircleOn, "CAS", "Y")
+Action(CircumscribedCircle, "SXY", "o")
+
+Action(MidPoint, "AH", "Q")
+Action(MidPoint, "OH", "N")
+
+Fact("cong", [Segment(*"oM"), Segment(*"oP")])

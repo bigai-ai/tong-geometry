@@ -1,0 +1,14 @@
+# China TST 1996 T1 P1
+Action(BaseAcuteTriangle, "", "CBA")
+Action(MidPoint, "BC", "Z")
+Action(CenterCircle, "ZC")
+Action(IntersectLineCircleOn, "ABZ", "D")
+Action(IntersectLineCircleOn, "ACZ", "E")
+Action(PerpendicularLine, "BDC", "F")
+Action(PerpendicularLine, "BEC", "G")
+Action(IntersectLineLine, "EFDG", "M")
+Action(IntersectLineLine, "DCBE", "H")
+
+Action(PerpendicularLine, "BAC", "I")
+
+Fact("eqline", [Segment(*"AH"), Segment(*"HM")])

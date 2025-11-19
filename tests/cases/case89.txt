@@ -1,0 +1,13 @@
+# China TST 2005 Q1 P1
+Action(BaseAcuteTriangle, "", "ACB")
+Action(AnyPoint, "BC", "D")
+Action(AnyPoint, "AB", "F")
+Action(Perpendicular, "DBA", "Z")
+Action(Perpendicular, "FBC", "Y")
+Action(IntersectLineLine, "ZDFY", "P")
+Action(PerpendicularLine, "APC", "E")
+Action(PerpendicularLine, "BAP", "M")
+Action(PerpendicularLine, "CAP", "N")
+Action(IntersectLineLine, "MENF", "X")
+
+Fact("eqline", [Segment(*"BX"), Segment(*"CX")])

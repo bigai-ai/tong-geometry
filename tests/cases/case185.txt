@@ -1,0 +1,23 @@
+# ISL 2019 P2
+Action(BaseAcuteTriangle, "", "CBA")
+Action(PerpendicularLine, "BAC", "D")
+Action(PerpendicularLine, "ABC", "E")
+Action(PerpendicularLine, "ACB", "F")
+Action(InCenter, "BDF", "b")
+Action(InCenter, "CDE", "c")
+Action(PerpendicularLine, "BbC", "T")
+Action(PerpendicularLine, "BcC", "U")
+Action(CenterCircle, "bT")
+Action(CenterCircle, "cU")
+Action(PerpendicularLine, "DbF", "M")
+Action(PerpendicularLine, "DcE", "N")
+Action(IntersectLineCircleOn, "NMb", "P")
+Action(IntersectLineCircleOn, "MNc", "Q")
+
+Action(MidPoint, "TU", "L")
+Action(MidPoint, "MN", "K")
+Action(MidPoint, "TM", "t")
+# Action(MidPoint, "UN", "u")
+Action(IntersectLineLine, "KLbc", "G")
+
+Fact("cong", [Segment(*"MP"), Segment(*"NQ")])

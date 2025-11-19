@@ -1,0 +1,15 @@
+# IMO 2013 P3
+Action(BaseAcuteTriangle, "", "CBZ")
+Action(MidPoint, "BC", "O")
+Action(CenterCircle, "OB", "")
+Action(AnyArc, "CBO", "A")
+Action(InCenter, "ABC", "I")
+Action(Perpendicular, "CIB", "V")
+Action(Perpendicular, "BIC", "W")
+Action(IntersectLineLine, "AICV", "U")
+Action(PerpendicularLine, "BUO", "X")
+Action(PerpendicularLine, "AVC", "Y")
+Action(PerpendicularLine, "AWB", "z")
+Action(CircumscribedCircle, "XYz", "G")
+
+Fact("eqcircle", [Circle(None, [*"ABC"]), Circle(None, [*"ABG"])])

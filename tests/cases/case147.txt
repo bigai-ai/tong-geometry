@@ -1,0 +1,16 @@
+# USATST 2020 P6 lemma
+Action(BaseAcuteTriangle, "", "ABZ")
+Action(CircumscribedCircle, "ABZ", "O")
+Action(AnyArc, "AZO", "D")
+Action(AnyArc, "ZBO", "C")
+Action(MidPoint, "AB", "M")
+Action(Perpendicular, "BOM", "E")
+Action(MidPoint, "CD", "N")
+Action(Perpendicular, "CON", "F")
+Action(IntersectLineLine, "ACBD", "P")
+
+Action(CenterCircle, "EA", "")
+Action(IntersectLineCircleOn, "CAE", "U")
+Action(IntersectLineCircleOn, "DBE", "V")
+
+Fact("eqline", [Segment(*"PE"), Segment(*"PF")])

@@ -1,0 +1,12 @@
+# Inversion property
+Action(BaseAcuteTriangle, "", "ACB")
+Action(CircumscribedCircle, "ABC", "O")
+Action(AnyArc, "CAO", "D")
+Action(ExtendEqual, "BD", "E")
+Action(AnyPoint, "DE", "F")
+Action(CircumscribedCircle, "ADF", "G")
+Action(IntersectLineCircleOn, "BAG", "H")
+Action(CircumscribedCircle, "FDC", "I")
+Action(IntersectLineCircleOn, "BCI", "J")
+
+Fact("eqline", [Segment(*"HF"), Segment(*"FJ")])

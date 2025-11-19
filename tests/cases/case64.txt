@@ -1,0 +1,13 @@
+# IMO 2002 P2
+Action(BaseAcuteTriangle, "", "BCZ")
+Action(MidPoint, "BC", "O")
+Action(CenterCircle, "OB")
+Action(AnyArc, "BCO", "A")
+Action(MidArc, "BAO", "D")
+Action(Parallel, "ODAC", "J")
+Action(MidPoint, "OA", "Y")
+Action(Perpendicular, "YOB", "X")
+Action(IntersectLineCircleOff, "YXOA", "EF")
+
+Fact("eqangle", [Angle(*"CFJ"), Angle(*"JFE")])
+Fact("eqangle", [Angle(*"FCJ"), Angle(*"JCE")])

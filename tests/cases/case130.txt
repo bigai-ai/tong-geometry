@@ -1,0 +1,16 @@
+# USAJMO 2017 P5
+Action(BaseAcuteTriangle, "", "ABC")
+Action(CircumscribedCircle, "ABC", "D")
+Action(PerpendicularLine, "ABC", "E")
+Action(PerpendicularLine, "BAC", "F")
+Action(IntersectLineLine, "AFBE", "G")
+# Action(MidPoint, "AB", "H")
+Action(InCenter, "ABC", "I")
+Action(IntersectLineLine, "ABCI", "J")
+Action(CircumscribedCircle, "ABG", "K")
+Action(MidArc, "ABK", "L")
+
+Action(MidArc, "BAK", "M")
+Action(MidArc, "BAD", "N")
+
+Fact("eqangle", [Angle(*"LCG"), Angle(*"CJD")])

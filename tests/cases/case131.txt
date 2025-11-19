@@ -1,0 +1,15 @@
+# USAJMO 2018 P3
+Action(BaseAcuteTriangle, "", "CAB")
+Action(CircumscribedCircle, "ABC", "O")
+Action(PerpendicularLine, "ABC", "Z")
+Action(IntersectLineCircleOn, "ZBO", "D")
+Action(PerpendicularLine, "BDA", "X")
+Action(PerpendicularLine, "BDC", "Y")
+Action(ExtendEqual, "DX", "E")
+Action(ExtendEqual, "DY", "F")
+Action(PerpendicularLine, "ODA", "G")
+Action(PerpendicularLine, "ODC", "H")
+Action(ExtendEqual, "DG", "Q")
+Action(ExtendEqual, "DH", "R")
+
+Fact("cong", [Segment(*"EQ"), Segment(*"FR")])

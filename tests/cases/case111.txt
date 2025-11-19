@@ -1,0 +1,14 @@
+# China TST 2010 T4 P1
+Action(BaseAcuteTriangle, "", "BCA")
+Action(CircumscribedCircle, "BCA", "O")
+Action(MidPoint, "BC", "M")
+Action(InCenter, "ABC", "Z")
+# Action(IntersectLineLine, "AZBC", "G")
+Action(AnyPoint, "AM", "H")
+Action(PerpendicularLine, "AHZ", "a")
+Action(ExtendEqual, "Ha", "P")
+Action(CircumscribedCircle, "ABP", "I")
+Action(CircumscribedCircle, "ACP", "J")
+Action(IntersectLineLine, "AOIJ", "N")
+
+Fact("midp", ["N", Segment(*"IJ")])

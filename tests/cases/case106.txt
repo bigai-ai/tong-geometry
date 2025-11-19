@@ -1,0 +1,16 @@
+# China TST 2013 T1 P1
+Action(BaseAcuteTriangle, "", "ADb")
+Action(CircumscribedCircle, "DbA", "O")
+Action(AnyArc, "bDO", "C")
+Action(AnyArc, "AbO", "B")
+Action(IntersectLineLine, "ACBD", "F")
+Action(IntersectLineLine, "ABCD", "E")
+Action(PerpendicularLine, "AFB", "G")
+Action(PerpendicularLine, "DFC", "H")
+Action(MidPoint, "BC", "M")
+Action(MidPoint, "EF", "N")
+Action(MidPoint, "BF", "X")
+Action(MidPoint, "CF", "Y")
+
+Fact("eqcircle", [Circle(None, [*"NGM"]), Circle(None, [*"NGX"])])
+Fact("eqcircle", [Circle(None, [*"NHM"]), Circle(None, [*"NHY"])])

@@ -1,0 +1,22 @@
+# USEMO 2020 P3
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(MidPoint, "AC", "b")
+Action(MidPoint, "AB", "c")
+Action(Perpendicular, "BOc", "z")
+Action(Perpendicular, "COb", "y")
+Action(IntersectLineLine, "zByC", "x")
+Action(PerpendicularLine, "BCA", "D")
+Action(PerpendicularLine, "ABC", "E")
+Action(IntersectLineLine, "BECD", "H")
+Action(MidPoint, "OH", "N")
+Action(PerpendicularLine, "AHN", "F")
+Action(IntersectLineLine, "FHzB", "P")
+Action(IntersectLineLine, "FHyC", "Q")
+Action(CircumscribedCircle, "PQx", "G")
+Action(IntersectCircleCircle, "GxOA", "IJ")
+
+Action(IntersectLineLine, "DECy", "K")
+Action(IntersectLineLine, "DEBz", "L")
+
+Fact("eqline", [Segment(*"DE"), Segment(*"IJ")])

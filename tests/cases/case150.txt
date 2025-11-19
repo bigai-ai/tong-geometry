@@ -1,0 +1,23 @@
+# USATST 2019 P6 lemma
+Action(BaseAcuteTriangle, "", "ABC")
+Action(AnyPoint, "AB", "D")
+Action(InCenter, "ABC", "E")
+Action(Perpendicular, "AEB", "J")
+Action(Perpendicular, "BEA", "K")
+Action(Perpendicular, "ECD", "L")
+Action(PerpendicularLine, "AJC", "N")
+Action(PerpendicularLine, "BKC", "O")
+Action(IntersectLineLine, "ABEL", "P")
+Action(CircumscribedCircle, "CNO", "R")
+Action(MidPoint, "CP", "S")
+
+Action(CircumscribedCircle, "ABC", "F")
+Action(CircumscribedCircle, "ABE", "T")
+Action(MidPoint, "CE", "G")
+Action(PerpendicularLine, "AEC", "H")
+# Action(PerpendicularLine, "BEC", "I")
+Action(PerpendicularLine, "FCG", "M")
+Action(ExtendEqual, "CM", "Q")
+
+Fact("perp", [Angle(*"RCS")])
+Fact("para", [Segment(*"ES"), Segment(*"NO")])

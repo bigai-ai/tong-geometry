@@ -1,0 +1,11 @@
+# IMO 1994 P2
+Action(BaseAcuteTriangle, "", "CBZ")
+Action(CircumscribedCircle, "CBZ", "X")
+Action(MidPoint, "BC", "M")
+Action(IntersectLineCircleOff, "MXXC", "OA")
+Action(AnyPoint, "BC", "Q")
+Action(Perpendicular, "QOM", "W")
+Action(IntersectLineLine, "QWAC", "F")
+Action(IntersectLineLine, "QWAB", "E")
+
+Fact("cong", [Segment(*"QE"), Segment(*"QF")])

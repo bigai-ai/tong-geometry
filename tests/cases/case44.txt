@@ -1,0 +1,11 @@
+# IMO 2017 P4
+Action(BaseAcuteTriangle, "", "SRZ")
+Action(CircumscribedCircle, "SRZ", "O")
+Action(ExtendEqual, "RS", "T")
+Action(AnyArc, "RSO", "J")
+Action(CircumscribedCircle, "JST", "Y")
+Action(Perpendicular, "ROS", "X")
+Action(IntersectLineCircleOff, "XRYJ", "BA")
+Action(IntersectLineCircleOn, "AJO", "K")
+
+Fact("perp", [Angle(*"KTY")])

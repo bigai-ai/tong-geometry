@@ -1,0 +1,19 @@
+# IMO 2004 P5
+Action(BaseAcuteTriangle, "", "BDA")
+Action(CircumscribedCircle, "ABD", "O")
+Action(AnyArc, "DBO", "C")
+Action(InCenter, "ABC", "X")
+# Action(IntersectLineLine, "BXAC", "E")
+Action(PerpendicularLine, "BDX", "F")
+Action(ExtendEqual, "DF", "G")
+Action(InCenter, "ADC", "Y")
+# Action(IntersectLineLine, "DYAC", "H")
+Action(PerpendicularLine, "DBY", "I")
+Action(ExtendEqual, "BI", "J")
+Action(IntersectLineLine, "DJBG", "P")
+
+Action(IntersectLineCircleOn, "GBO", "K")
+# Action(IntersectLineCircleOn, "PDO", "L")
+# Action(MidPoint, "AC", "M")
+
+Fact("cong", [Segment(*"AP"), Segment(*"CP")])

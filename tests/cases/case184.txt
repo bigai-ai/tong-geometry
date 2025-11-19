@@ -1,0 +1,15 @@
+# ISL 2019 G6
+Action(BaseAcuteTriangle, "", "CBA")
+Action(InCenter, "ABC", "I")
+Action(CircumscribedCircle, "ABC", "O")
+Action(PerpendicularLine, "BIC", "D")
+Action(PerpendicularLine, "AIC", "E")
+Action(PerpendicularLine, "AIB", "F")
+Action(IntersectLineCircleOff, "EFOA", "QP")
+Action(MidPoint, "BC", "L")
+
+Action(MidArc, "BCO", "M")
+Action(MidArc, "CBO", "N")
+Action(IntersectLineLine, "BCEF", "Z")
+
+Fact("eqcircle", [Circle(None, [*"QPL"]), Circle(None, [*"QPD"])])

@@ -1,0 +1,11 @@
+# IMO 2007 P2
+Action(BaseAcuteTriangle, "", "BDC")
+Action(MidPoint, "BD", "b")
+Action(ExtendEqual, "Cb", "A")
+Action(CircumscribedCircle, "DCB", "O")
+Action(MidArc, "BDO", "E")
+Action(CenterCircle, "EC")
+Action(IntersectLineCircleOn, "DCE", "F")
+Action(IntersectLineCircleOn, "BCE", "G")
+
+Fact("eqline", [Segment(*"AG"), Segment(*"AF")])

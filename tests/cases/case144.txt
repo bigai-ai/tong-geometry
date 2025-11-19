@@ -1,0 +1,18 @@
+# USATST 2014 P1
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(AnyArc, "BCO", "X")
+Action(PerpendicularLine, "CXA", "P")
+Action(PerpendicularLine, "CXB", "Q")
+# Action(PerpendicularLine, "AXB", "R")
+Action(PerpendicularLine, "ABC", "Z")
+Action(IntersectLineLine, "BZPQ", "D")
+Action(PerpendicularLine, "BAC", "E")
+Action(IntersectLineLine, "AEBZ", "H")
+
+# Action(PerpendicularLine, "ACB", "F")
+Action(IntersectLineCircleOn, "HAO", "G")
+Action(IntersectLineLine, "AHPQ", "I")
+# Action(MidPoint, "HX", "J")
+
+Fact("para", [Segment(*"DX"), Segment(*"HP")])

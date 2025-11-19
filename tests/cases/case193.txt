@@ -1,0 +1,15 @@
+# ISL 2023 G3
+Action(BaseAcuteTriangle, "", "DCz")
+Action(CircumscribedCircle, "DCz", "O")
+Action(AnyArc, "DzO", "A")
+Action(AnyArc, "zCO", "B")
+Action(IntersectLineLine, "ADBC", "w")
+Action(MidArc, "CDO", "M")
+Action(Parallel, "CMAz", "E")
+Action(Parallel, "DMBz", "F")
+Action(IntersectLineLine, "DFCE", "P")
+
+Action(IntersectLineLine, "DFBC", "X")
+Action(IntersectLineLine, "CEAD", "Y")
+
+Fact("eqline", [Segment(*"Mw"), Segment(*"Pw")])

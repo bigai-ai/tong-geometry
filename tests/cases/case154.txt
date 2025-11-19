@@ -1,0 +1,21 @@
+# ISL 1986 P14
+Action(BaseAcuteTriangle, "", "CBA")
+Action(InCenter, "ABC", "I")
+Action(PerpendicularLine, "BIC", "D")
+Action(PerpendicularLine, "AIC", "E")
+Action(PerpendicularLine, "AIB", "F")
+Action(MidPoint, "EF", "X")
+Action(MidPoint, "FD", "Y")
+Action(MidPoint, "DE", "Z")
+Action(CircumscribedCircle, "XYZ", "o")
+Action(CircumscribedCircle, "ABC", "O")
+
+Action(IntersectLineCircleOn, "OAO", "a")
+Action(IntersectLineCircleOn, "OBO", "b")
+# Action(IntersectLineCircleOn, "OCO", "c")
+Action(Perpendicular, "BIA", "G")
+Action(Perpendicular, "CIB", "H")
+Action(Perpendicular, "BIC", "J")
+Action(CircumscribedCircle, "GHJ", "K")
+
+Fact("eqline", [Segment(*"oO"), Segment(*"oI")])

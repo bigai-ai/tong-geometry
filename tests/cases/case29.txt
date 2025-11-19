@@ -1,0 +1,16 @@
+# Midpoint of altitute lemma
+Action(BaseAcuteTriangle, "", "CBA")
+Action(InCenter, "ABC", "I")
+Action(PerpendicularLine, "BIC", "D")
+Action(PerpendicularLine, "BAC", "K")
+Action(Perpendicular, "BIA", "U")
+Action(PerpendicularLine, "BUC", "H")
+Action(MidPoint, "AK", "M")
+
+Action(CenterCircle, "ID")
+Action(PerpendicularLine, "AIC", "E")
+Action(PerpendicularLine, "AUB", "G")
+Action(IntersectLineCircleOn, "IDI", "L")
+
+Fact("eqline", [Segment(*"MI"), Segment(*"IH")])
+Fact("eqline", [Segment(*"MD"), Segment(*"DU")])

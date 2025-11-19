@@ -1,0 +1,16 @@
+# IMO 2010 P2
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(InCenter, "ABC", "I")
+Action(IntersectLineCircleOn, "IAO", "D")
+Action(AnyArc, "DCO", "E")
+# Action(CenterCircle, "DE")
+Action(PerpendicularLine, "OED", "a")
+Action(ExtendEqual, "Ea", "J")
+Action(IntersectLineLine, "AJBC", "F")
+Action(MidPoint, "IF", "G")
+Action(IntersectLineLine, "EIDG", "H")
+
+Action(ExtendEqual, "ID", "K")
+
+Fact("eqcircle", [Circle(None, [*"ABC"]), Circle(None, [*"ABH"])])

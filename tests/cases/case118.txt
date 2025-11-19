@@ -1,0 +1,21 @@
+# China TST 2007 T1 P1
+Action(BaseAcuteTriangle, "", "BAQ")
+Action(CircumscribedCircle, "BAQ", "O")
+Action(AnyArc, "BQO", "S")
+Action(AnyArc, "QAO", "T")
+Action(MidArc, "ABO", "M")
+Action(MidPoint, "TS", "D")
+Action(IntersectLineLine, "MTAB", "F")
+Action(IntersectLineLine, "MSAB", "E")
+Action(Perpendicular, "TOD", "C")
+Action(Perpendicular, "FAO", "H")
+Action(Perpendicular, "EBO", "G")
+Action(IntersectLineCircleOn, "CQO", "P")
+Action(IntersectLineLine, "FHOT", "Y")
+Action(IntersectLineLine, "EGOS", "X")
+Action(IntersectLineLine, "MPAB", "R")
+Action(CircumscribedCircle, "PQR", "Z")
+
+Action(IntersectLineLine, "CMXY", "I")
+
+Fact("eqline", [Segment(*"XY"), Segment(*"XZ")])

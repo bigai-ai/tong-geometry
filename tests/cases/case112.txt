@@ -1,0 +1,19 @@
+# China TST 2009 T1 P1
+Action(BaseAcuteTriangle, "", "EDB")
+Action(CircumscribedCircle, "EDB", "O")
+Action(AnyArc, "DEO", "F")
+Action(IntersectLineLine, "DFBE", "A")
+Action(IntersectLineLine, "EFBD", "R")
+Action(IntersectLineLine, "EDBF", "G")
+Action(Parallel, "AERB", "C")
+Action(MidPoint, "AG", "M")
+Action(IntersectLineLine, "CMOA", "H")
+
+Action(IntersectLineLine, "ACGR", "L")
+Action(CircumscribedCircle, "AEF", "I")
+Action(CircumscribedCircle, "DFR", "J")
+Action(PerpendicularLine, "IFJ", "f")
+Action(ExtendEqual, "Ff", "Q")
+Action(CircumscribedCircle, "ABD", "P")
+
+Fact("perp", [Angle(*"CHO")])

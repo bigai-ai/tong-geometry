@@ -1,0 +1,7 @@
+Action(BaseAcuteTriangle, "", "ABC")
+Action(CircumscribedCircle, "ABC", "O")
+Action(PerpendicularLine, "AOB", "H")
+Action(IntersectLineLine, "OHAC", "Q")
+Action(IntersectLineLine, "OHBC", "P")
+
+Fact("simtri", [Triangle(*"CPO"), Triangle(*"QCO")])

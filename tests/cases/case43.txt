@@ -1,0 +1,18 @@
+# IMO 2018 P1
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(AnyPoint, "AO", "d")
+Action(CenterCircle, "Ad")
+Action(IntersectLineCircleOff, "CAAd", "EH")
+Action(IntersectLineCircleOff, "BAAd", "DZ")
+Action(MidPoint, "BD", "I")
+Action(Perpendicular, "IBC", "J")
+Action(IntersectLineCircleOff, "IJOB", "FK")
+Action(MidPoint, "EC", "L")
+Action(Perpendicular, "LCB", "M")
+Action(IntersectLineCircleOff, "LMOC", "GN")
+
+Action(IntersectLineCircleOn, "DFO", "P")
+# Action(IntersectLineCircleOn, "EGO", "Q")
+
+Fact("para", [Segment(*"DE"), Segment(*"FG")])

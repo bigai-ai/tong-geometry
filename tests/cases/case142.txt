@@ -1,0 +1,23 @@
+# TSTST 2016 P2
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(PerpendicularLine, "ABC", "E")
+Action(PerpendicularLine, "ACB", "F")
+Action(IntersectLineLine, "BECF", "H")
+Action(MidPoint, "AH", "M")
+Action(MidPoint, "BC", "N")
+Action(PerpendicularLine, "OAM", "Z")
+Action(ExtendEqual, "AZ", "G")
+Action(CenterCircle, "MA", "")
+Action(IntersectLineCircleOn, "NAM", "Q")
+Action(Perpendicular, "GMO", "P")
+Action(CircumscribedCircle, "GNQ", "X")
+Action(CircumscribedCircle, "MBC", "Y")
+Action(CircumscribedCircle, "NEF", "I")
+Action(PerpendicularLine, "XNI", "J")
+Action(ExtendEqual, "NJ", "T")
+
+Action(IntersectLineLine, "BCAZ", "R")
+
+Fact("eqline", [Segment(*"NT"), Segment(*"TP")])
+Fact("cong", [Segment(*"YM"), Segment(*"YT")])

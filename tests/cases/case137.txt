@@ -1,0 +1,17 @@
+# TSTST 2022 P7
+Action(BaseAcuteTriangle, "", "DBA")
+Action(CircumscribedCircle, "ABD", "O")
+Action(MidPoint, "BD", "M")
+Action(ExtendEqual, "AM", "C")
+Action(IntersectLineCircleOn, "CBO", "b")
+Action(IntersectLineCircleOn, "CDO", "d")
+Action(InCenter, "CAd", "x")
+Action(InCenter, "CAb", "y")
+Action(IntersectLineLine, "AxCd", "X")
+Action(IntersectLineLine, "AyCb", "Y")
+Action(CircumscribedCircle, "ADX", "V")
+Action(CircumscribedCircle, "ABY", "W")
+Action(IntersectLineCircleOff, "BbVA", "EG")
+Action(IntersectLineCircleOff, "DdWA", "FH")
+
+Fact("cong", [Segment(*"OE"), Segment(*"OF")])

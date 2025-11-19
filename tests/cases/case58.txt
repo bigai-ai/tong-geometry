@@ -1,0 +1,14 @@
+# IMO 2010 P4
+Action(BaseAcuteTriangle, "", "BAC")
+Action(CircumscribedCircle, "ABC", "O")
+Action(Perpendicular, "COB", "Z")
+Action(IntersectLineLine, "CZAB", "S")
+Action(CenterCircle, "SC")
+Action(IntersectLineCircleOff, "ABSC", "XY")
+Action(AnyPoint, "CY", "Q")
+Action(IntersectLineCircleOff, "SQSC", "PW")
+Action(IntersectLineCircleOn, "PCO", "M")
+Action(IntersectLineCircleOn, "PBO", "L")
+Action(IntersectLineCircleOn, "PAO", "K")
+
+Fact("cong", [Segment(*"MK"), Segment(*"ML")])

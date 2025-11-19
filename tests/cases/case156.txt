@@ -1,0 +1,17 @@
+# ISL 1995 P8
+Action(BaseAcuteTriangle, "", "CBZ")
+Action(CircumscribedCircle, "BCZ", "O")
+Action(AnyArc, "ZBO", "A")
+Action(AnyArc, "CZO", "D")
+Action(IntersectLineLine, "ABCD", "F")
+Action(PerpendicularLine, "BAD", "X")
+Action(PerpendicularLine, "ADC", "Y")
+Action(IntersectLineLine, "AXDY", "H")
+Action(PerpendicularLine, "ABC", "x")
+Action(PerpendicularLine, "DCB", "y")
+Action(IntersectLineLine, "BxCy", "h")
+
+Action(IntersectLineLine, "CyAB", "M")
+Action(IntersectLineLine, "BxCD", "N")
+
+Fact("eqline", [Segment(*"FH"), Segment(*"Fh")])

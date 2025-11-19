@@ -1,0 +1,12 @@
+# ISL 2023 G2
+Action(BaseAcuteTriangle, "", "BAC")
+Action(CircumscribedCircle, "BAC", "O")
+Action(CenterCircle, "CB", "")
+Action(IntersectLineCircleOff, "ACCB", "Pp")
+Action(IntersectLineCircleOn, "PBO", "D")
+Action(CircumscribedCircle, "CDP", "Q")
+Action(PerpendicularLine, "CAQ", "X")
+Action(PerpendicularLine, "DBQ", "Y")
+Action(IntersectLineLine, "AXBY", "E")
+
+Fact("cong", [Segment(*"OE"), Segment(*"OA")])

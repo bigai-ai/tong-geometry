@@ -1,0 +1,18 @@
+# USAMO 1999 P6
+Action(BaseAcuteTriangle, "", "BAz")
+Action(CircumscribedCircle, "ABz", "Y")
+Action(MidPoint, "AB", "y")
+Action(AnyPoint, "Yy", "X")
+Action(Parallel, "XABY", "C")
+Action(Parallel, "XBAY", "D")
+Action(InCenter, "BCD", "I")
+Action(PerpendicularLine, "CID", "E")
+Action(InCenter, "DAC", "L")
+Action(IntersectLineLine, "ALEI", "F")
+Action(CircumscribedCircle, "ACF", "g")
+Action(IntersectLineCircleOn, "DCg", "G")
+
+Action(CircumscribedCircle, "ADC", "p")
+Action(IntersectLineCircleOn, "LAp", "R")
+
+Fact("cong", [Segment(*"AF"), Segment(*"FG")])

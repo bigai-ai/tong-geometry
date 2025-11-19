@@ -1,0 +1,12 @@
+# Inversion property new
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(ExtendEqual, "BC", "D")
+Action(AnyPoint, "CD", "E")
+Action(CircumscribedCircle, "ACE", "F")
+Action(IntersectLineCircleOn, "BAF", "G")
+Action(ExtendEqual, "GE", "H")
+Action(AnyPoint, "EH", "I")
+Action(IntersectLineCircleOn, "IBO", "J")
+
+Fact("eqcircle", [Circle(None, [*"CEI"]), Circle(None, [*"CEJ"])])

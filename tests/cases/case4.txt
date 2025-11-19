@@ -1,0 +1,9 @@
+Action(BaseAcuteTriangle, "", "CBA")
+Action(MidPoint, "AC", "b")
+Action(ExtendEqual, "Bb", "D")
+Action(PerpendicularLine, "ABC", "E")
+Action(PerpendicularLine, "ADC", "F")
+Action(MidPoint, "AB", "G")
+Action(MidPoint, "CD", "H")
+
+Fact("para", [Segment(*"EG"), Segment(*"FH")])

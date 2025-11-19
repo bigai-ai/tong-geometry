@@ -1,0 +1,12 @@
+# Harmonic quadrilateral
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(MidPoint, "BC", "M")
+Action(Perpendicular, "BOM", "P")
+Action(IntersectLineCircleOn, "PAO", "D")
+Action(IntersectLineLine, "BCAP", "Q")
+Action(MidPoint, "AD", "F")
+
+Fact("eqratio", [Ratio(Segment(*"AQ"), Segment(*"QD")), Ratio(Segment(*"AP"), Segment(*"DP"))])
+Fact("eqangle", [Angle(*"CAM"), Angle(*"QAB")])
+Fact("eqratio", [Ratio(Segment(*"AF"), Segment(*"FP")), Ratio(Segment(*"FQ"), Segment(*"FD"))])

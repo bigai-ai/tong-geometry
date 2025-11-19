@@ -1,0 +1,13 @@
+# Pascal proof
+Action(BaseAcuteTriangle, "", "DBA")
+Action(CircumscribedCircle, "DBA", "O")
+Action(AnyArc, "BDO", "C")
+Action(AnyArc, "ABO", "E")
+Action(AnyArc, "DAO", "F")
+Action(IntersectLineLine, "BFCE", "G")
+Action(IntersectLineLine, "EDAF", "H")
+Action(IntersectLineLine, "ACBD", "I")
+
+Action(IsogonalConjugate, "CBIG", "J")
+
+Fact("eqline", [Segment(*"GH"), Segment(*"HI")])

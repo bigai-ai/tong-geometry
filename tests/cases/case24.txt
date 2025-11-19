@@ -1,0 +1,18 @@
+# Nine point circle
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(PerpendicularLine, "BAC", "D")
+Action(PerpendicularLine, "ABC", "E")
+Action(PerpendicularLine, "ACB", "F")
+Action(IntersectLineLine, "ADBE", "H")
+Action(MidPoint, "BC", "I")
+Action(MidPoint, "AC", "J")
+Action(MidPoint, "AB", "K")
+Action(MidPoint, "AH", "L")
+Action(MidPoint, "BH", "M")
+Action(MidPoint, "CH", "N")
+Action(MidPoint, "OH", "V")
+
+Fact("eqcircle", [Circle(None, [*"DEF"]), Circle(None, [*"IJK"])])
+Fact("eqcircle", [Circle(None, [*"IJK"]), Circle(None, [*"LMN"])])
+Fact("eqcircle", [Circle("V", ["D"]), Circle("V", ["E"])])

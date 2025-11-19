@@ -1,0 +1,15 @@
+# China TST 2007 T4 P1
+Action(BaseAcuteTriangle, "", "ADb")
+Action(CircumscribedCircle, "DbA", "O")
+Action(AnyArc, "bDO", "C")
+Action(AnyArc, "AbO", "B")
+Action(IntersectLineLine, "ABCD", "H")
+Action(IntersectLineLine, "ACBD", "G")
+Action(CircumscribedCircle, "AGD", "E")
+Action(CircumscribedCircle, "BGC", "F")
+Action(IntersectLineLine, "EFOG", "N")
+Action(IntersectLineCircleOn, "HGE", "P")
+Action(IntersectLineCircleOn, "HGF", "Q")
+Action(MidPoint, "PQ", "M")
+
+Fact("cong", [Segment(*"ON"), Segment(*"MN")])

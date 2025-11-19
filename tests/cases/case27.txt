@@ -1,0 +1,14 @@
+# Property of Incenter from Siyu new
+Action(BaseAcuteTriangle, "", "CBA")
+Action(InCenter, "ABC", "I")
+Action(PerpendicularLine, "BIC", "D")
+Action(CenterCircle, "ID")
+Action(IntersectLineCircleOn, "IDI", "L")
+Action(IntersectLineLine, "ALBC", "T")
+
+Action(PerpendicularLine, "AIC", "E")
+Action(PerpendicularLine, "AIB", "F")
+Action(Parallel, "LCBA", "U")
+Action(Parallel, "LBCA", "V")
+
+Fact("cong", [Segment(*"BD"), Segment(*"CT")])

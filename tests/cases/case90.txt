@@ -1,0 +1,18 @@
+# China TST 2005 Q3 P1 (Mixtilinear incircle of a triangle)
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(InCenter, "ABC", "I")
+# Action(IntersectLineLine, "BXAC", "Y")
+# Action(IntersectLineLine, "CXAB", "a")
+Action(Perpendicular, "IAC", "Q")
+Action(Perpendicular, "IAB", "P")
+Action(MidArc, "ABO", "U")
+Action(MidArc, "CAO", "V")
+Action(IntersectLineLine, "UPVQ", "S")
+Action(IntersectLineLine, "ASPQ", "T")
+
+Action(Perpendicular, "PAI", "Z")
+Action(CenterCircle, "ZQ")
+Action(IntersectLineCircleOn, "ASZ", "R")
+
+Fact("eqangle", [Angle(*"BTP"), Angle(*"QTC")])

@@ -1,0 +1,14 @@
+# ISL 1980 P4
+Action(BaseAcuteTriangle, "", "XYZ")
+Action(CircumscribedCircle, "XYZ", "O")
+Action(AnyArc, "YXO", "P")
+Action(AnyPoint, "OP", "z")
+Action(CenterCircle, "zP")
+Action(ExtendEqual, "Pz", "y")
+Action(AnyArc, "yPz", "A")
+Action(Perpendicular, "AzO", "D")
+Action(IntersectLineCircleOff, "ADOX", "BC")
+
+Action(IntersectLineCircleOn, "CPz", "E")
+
+Fact("eqangle", [Angle(*"BPA"), Angle(*"APC")])

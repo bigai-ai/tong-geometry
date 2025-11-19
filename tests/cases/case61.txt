@@ -1,0 +1,13 @@
+# IMO 2007 P4
+Action(BaseAcuteTriangle, "", "BAC")
+Action(CircumscribedCircle, "ABC", "O")
+Action(InCenter, "ABC", "Z")
+# Action(IntersectLineLine, "CZAB", "D")
+Action(IntersectLineCircleOn, "ZCO", "R")
+Action(MidPoint, "AC", "L")
+Action(Perpendicular, "LCZ", "Q")
+Action(MidPoint, "BC", "K")
+Action(Perpendicular, "KCZ", "P")
+
+Fact("eqangle", [Angle(*"LQR"), Angle(*"RPK")])
+Fact("eqratio", [Ratio(Segment(*"PR"), Segment(*"QR")),Ratio(Segment(*"LQ"), Segment(*"KP"))])

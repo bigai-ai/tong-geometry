@@ -1,0 +1,12 @@
+# IMO 2013 P4
+Action(BaseAcuteTriangle, "", "CBA")
+Action(PerpendicularLine, "ABC", "M")
+Action(PerpendicularLine, "ACB", "N")
+Action(IntersectLineLine, "CNBM", "H")
+Action(AnyPoint, "BC", "W")
+Action(CircumscribedCircle, "BWN", "D")
+Action(IntersectLineCircleOn, "DWD", "X")
+Action(CircumscribedCircle, "CWM", "E")
+Action(IntersectLineCircleOn, "EWE", "Y")
+
+Fact("eqline", [Segment(*"XY"), Segment(*"XH")])

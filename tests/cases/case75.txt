@@ -1,0 +1,18 @@
+# IMO 1982 P2
+Action(BaseAcuteTriangle, "", "ABC")
+Action(MidPoint, "BC", "D")
+Action(MidPoint, "AC", "E")
+Action(MidPoint, "AB", "F")
+Action(InCenter, "ABC", "G")
+Action(PerpendicularLine, "AGB", "J")
+Action(PerpendicularLine, "AGC", "I")
+Action(PerpendicularLine, "BGC", "H")
+Action(PerpendicularLine, "AHG", "a")
+Action(ExtendEqual, "Ha", "K")
+Action(PerpendicularLine, "BIG", "b")
+Action(ExtendEqual, "Ib", "L")
+Action(PerpendicularLine, "CJG", "c")
+Action(ExtendEqual, "Jc", "M")
+Action(IntersectLineLine, "DKMF", "N")
+
+Fact("eqline", [Segment(*"EL"), Segment(*"EN")])

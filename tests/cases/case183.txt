@@ -1,0 +1,18 @@
+# ISL 2018 G7
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(AnyArc, "CBO", "P")
+Action(CircumscribedCircle, "AOP", "a")
+Action(CircumscribedCircle, "BOP", "b")
+Action(CircumscribedCircle, "COP", "c")
+Action(PerpendicularLine, "BaC", "D")
+Action(PerpendicularLine, "AbC", "E")
+Action(PerpendicularLine, "AcB", "F")
+Action(IntersectLineLine, "aDbE", "I")
+Action(IntersectLineLine, "aDcF", "H")
+# Action(IntersectLineLine, "bEcF", "G")
+Action(CircumscribedCircle, "PHI", "J")
+
+Action(ExtendEqual, "AO", "Q")
+
+Fact("perp", [Angle(*"JPO")])

@@ -1,0 +1,18 @@
+# ISL 2016 G2
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(InCenter, "ABC", "I")
+Action(MidPoint, "BC", "M")
+Action(Perpendicular, "IAB", "F")
+Action(Perpendicular, "IAC", "E")
+Action(CircumscribedCircle, "AEF", "o")
+Action(PerpendicularLine, "OAo", "a")
+Action(ExtendEqual, "Aa", "X")
+Action(IntersectLineCircleOn, "MAO", "G")
+Action(IntersectLineLine, "XGBC", "D")
+
+Action(MidArc, "ABO", "c")
+Action(MidArc, "CAO", "b")
+Action(IntersectLineLine, "cFbE", "H")
+
+Fact("perp", [Angle(*"BDI")])

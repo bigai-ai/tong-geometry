@@ -1,0 +1,20 @@
+# China TST 2006 D2 P2
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(MidPoint, "BC", "D")
+Action(MidPoint, "AC", "E")
+Action(MidPoint, "AB", "F")
+Action(AnyArc, "BCO", "G")
+Action(AnyPoint, "AG", "P")
+Action(IntersectLineCircleOn, "PBO", "H")
+Action(IntersectLineCircleOn, "PCO", "I")
+Action(PerpendicularLine, "ACB", "J")
+Action(PerpendicularLine, "ABC", "K")
+Action(IntersectLineLine, "CJBK", "L")
+Action(ExtendEqual, "GD", "M")
+Action(ExtendEqual, "HE", "N")
+Action(ExtendEqual, "IF", "Q")
+
+Action(IsogonalConjugate, "ABCP", "R")
+
+Fact("eqcircle", [Circle(None, [*"MNQ"]), Circle(None, [*"MNL"])])

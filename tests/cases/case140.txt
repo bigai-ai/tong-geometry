@@ -1,0 +1,15 @@
+# TSTST 2021 P1
+Action(BaseAcuteTriangle, "", "DCZ")
+Action(CircumscribedCircle, "DCZ", "O")
+Action(AnyArc, "ZCO", "B")
+Action(AnyArc, "DZO", "A")
+Action(AnyPoint, "BA", "X")
+Action(AnyPoint, "CD", "Y")
+Action(CircumscribedCircle, "ADX", "E")
+Action(CircumscribedCircle, "BCY", "F")
+Action(IntersectLineCircleOn, "YXE", "P")
+Action(IntersectLineCircleOn, "XYF", "Q")
+
+Action(IntersectLineCircleOn, "PDO", "d")
+
+Fact("cong", [Segment(*"OP"), Segment(*"OQ")])

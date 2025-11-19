@@ -1,0 +1,15 @@
+# TSTST 2022 P6 (Kosnita Point)
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(CircumscribedCircle, "OBC", "D")
+Action(CircumscribedCircle, "OAC", "E")
+Action(CircumscribedCircle, "OAB", "F")
+Action(IntersectLineLine, "BECF", "T")
+
+Action(PerpendicularLine, "ABC", "X")
+Action(PerpendicularLine, "ACB", "Y")
+Action(PerpendicularLine, "BAC", "Z")
+Action(CircumscribedCircle, "XYZ", "G")
+Action(MidPoint, "BC", "a")
+
+Fact("eqline", [Segment(*"AT"), Segment(*"TD")])

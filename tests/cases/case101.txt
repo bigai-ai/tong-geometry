@@ -1,0 +1,13 @@
+# China TST 2015 T1 P1
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(AnyPoint, "BC", "a")
+Action(PerpendicularLine, "aAO", "b")
+Action(ExtendEqual, "Ab", "P")
+Action(CircumscribedCircle, "APO", "Z")
+Action(IntersectLineCircleOn, "BAZ", "F")
+Action(IntersectLineCircleOn, "CAZ", "E")
+Action(PerpendicularLine, "EPF", "z")
+Action(ExtendEqual, "Pz", "D")
+
+Fact("eqline", [Segment(*"DB"), Segment(*"DC")])

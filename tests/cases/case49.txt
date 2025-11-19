@@ -1,0 +1,17 @@
+# IMO 2014 P3
+Action(BaseAcuteTriangle, "", "DBA")
+Action(CircumscribedCircle, "DBA", "O")
+Action(PerpendicularLine, "BAD", "H")
+Action(ExtendEqual, "AO", "C")
+Action(ExtendEqual, "CB", "E")
+Action(ExtendEqual, "CD", "F")
+Action(CircumscribedCircle, "CHE", "J")
+Action(CircumscribedCircle, "CHF", "K")
+Action(IntersectLineCircleOff, "ABJC", "SZ")
+Action(IntersectLineCircleOff, "ADKC", "TY")
+Action(CircumscribedCircle, "STH", "G")
+
+Action(CircumscribedCircle, "AHC", "X")
+# Action(CircumscribedCircle, "AJK", "W")
+
+Fact("perp", [Angle(*"BHG")])

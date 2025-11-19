@@ -1,0 +1,19 @@
+# China TST 2011 T1 P4
+Action(BaseAcuteTriangle, "", "ABP")
+Action(MidPoint, "AP", "D")
+Action(MidPoint, "BP", "E")
+Action(Perpendicular, "EBA", "F")
+Action(Perpendicular, "DAB", "G")
+Action(Perpendicular, "BFE", "H")
+Action(Perpendicular, "AGD", "I")
+Action(PerpendicularLine, "BAP", "J")
+Action(IntersectLineLine, "HIAJ", "C")
+
+# Action(CenterCircle, "HB")
+Action(CenterCircle, "IA")
+Action(IntersectLineLine, "ABHI", "Z")
+Action(IntersectLineCircleOn, "ZPI", "Q")
+# Action(IntersectLineCircleOn, "CAI", "c")
+Action(PerpendicularLine, "HAI", "h")
+
+Fact("perp", [Angle(*"APC")])

@@ -1,0 +1,8 @@
+Action(BaseAcuteTriangle, "", "BAC")
+Action(CircumscribedCircle, "ABC", "O")
+Action(ExtendEqual, "CA", "E")
+Action(InCenter, "BAE", "Z")
+# Action(IntersectLineLine, "AZBE", "F")
+Action(IntersectLineCircleOn, "ZAO", "G")
+
+Fact("cong", [Segment(*"BG"), Segment(*"CG")])

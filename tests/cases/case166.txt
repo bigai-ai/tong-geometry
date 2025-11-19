@@ -1,0 +1,15 @@
+# ISL 2009 G4
+Action(BaseAcuteTriangle, "", "DCZ")
+Action(CircumscribedCircle, "CDZ", "O")
+Action(AnyArc, "ZCO", "B")
+Action(AnyArc, "DZO", "A")
+Action(IntersectLineLine, "ACBD", "E")
+Action(IntersectLineLine, "ADBC", "F")
+Action(MidPoint, "AB", "G")
+Action(MidPoint, "CD", "H")
+Action(CircumscribedCircle, "EGH", "o")
+
+Action(ExtendEqual, "EG", "X")
+Action(ExtendEqual, "EH", "Y")
+
+Fact("perp", [Angle(*"FEo")])

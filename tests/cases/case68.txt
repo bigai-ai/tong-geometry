@@ -1,0 +1,14 @@
+# IMO 1997 P2
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(AnyArc, "BCO", "U")
+Action(MidPoint, "AB", "D")
+Action(MidPoint, "AC", "E")
+Action(IntersectLineLine, "AUOD", "V")
+Action(IntersectLineLine, "AUOE", "W")
+Action(IntersectLineLine, "BVCW", "T")
+Action(IntersectLineCircleOn, "VBO", "F")
+Action(IntersectLineCircleOn, "WCO", "G")
+
+Fact("cong", [Segment(*"AU"), Segment(*"BF")])
+Fact("cong", [Segment(*"BT"), Segment(*"TG")])

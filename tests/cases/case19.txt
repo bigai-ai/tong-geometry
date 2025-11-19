@@ -1,0 +1,16 @@
+# USAMO 2013 P1
+Action(BaseAcuteTriangle, "", "CBA")
+Action(AnyPoint, "AB", "R")
+Action(AnyPoint, "AC", "Q")
+Action(AnyPoint, "BC", "P")
+Action(CircumscribedCircle, "ARQ", "U")
+Action(CircumscribedCircle, "BRP", "V")
+Action(CircumscribedCircle, "CPQ", "W")
+Action(IntersectLineCircleOn, "PAU", "X")
+Action(IntersectLineCircleOn, "APV", "Y")
+Action(IntersectLineCircleOn, "APW", "Z")
+
+Action(PerpendicularLine, "URV", "a")
+Action(ExtendEqual, "Ra", "M")
+
+Fact("eqratio", [Ratio(Segment(*"YX"), Segment(*"XZ")), Ratio(Segment(*"BP"), Segment(*"PC"))])

@@ -1,0 +1,8 @@
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(MidPoint, "BC", "M")
+Action(Perpendicular, "BOM", "P")
+
+Action(PerpendicularLine, "ACB", "F")
+
+Fact("eqangle", [Angle(*"BAM"), Angle(*"PAC")])

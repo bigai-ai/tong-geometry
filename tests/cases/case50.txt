@@ -1,0 +1,16 @@
+# IMO 2014 P4
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+# Action(CenterCircle, "BA")
+Action(PerpendicularLine, "BAO", "a")
+Action(IntersectLineLine, "BCAa", "P")
+# Action(CenterCircle, "CA")
+Action(PerpendicularLine, "CAO", "b")
+Action(IntersectLineLine, "BCAb", "Q")
+Action(ExtendEqual, "AP", "M")
+Action(ExtendEqual, "AQ", "N")
+Action(IntersectLineLine, "BMCN", "D")
+
+Action(ExtendEqual, "Aa", "E")
+
+Fact("eqcircle", [Circle(None, [*"ABC"]), Circle(None, [*"ADC"])])

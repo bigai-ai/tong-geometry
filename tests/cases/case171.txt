@@ -1,0 +1,15 @@
+# ISL 2011 G4
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "CBA", "O")
+Action(InCenter, "ABC", "I")
+Action(IntersectLineLine, "BCAI", "D")
+Action(MidPoint, "BC", "M")
+Action(ExtendEqual, "DM", "E")
+Action(Perpendicular, "DMA", "x")
+Action(IntersectLineLine, "DxOA", "X")
+Action(Perpendicular, "EMA", "y")
+Action(IntersectLineLine, "EyAD", "Y")
+
+Action(IntersectLineCircleOn, "IAO", "P")
+
+Fact("eqcircle", [Circle(None, [*"BCX"]), Circle(None, [*"BCY"])])

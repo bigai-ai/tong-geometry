@@ -1,0 +1,18 @@
+# IMO 2024 P4
+Action(BaseAcuteTriangle, "", "BCA")
+Action(InCenter, "ABC", "I")
+Action(PerpendicularLine, "CIA", "E")
+Action(PerpendicularLine, "BIA", "F")
+Action(ExtendEqual, "EI", "e")
+Action(Parallel, "eACB", "X")
+Action(ExtendEqual, "FI", "f")
+Action(Parallel, "fABC", "Y")
+Action(CircumscribedCircle, "ABC", "O")
+Action(IntersectLineCircleOn, "IAO", "P")
+Action(MidPoint, "AB", "L")
+Action(MidPoint, "AC", "K")
+
+Action(PerpendicularLine, "BIC", "D")
+Action(ExtendEqual, "CP", "Z")
+
+Fact("eqangle", [Angle(*"XPY"), Angle(*"KIL")])

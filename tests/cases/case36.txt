@@ -1,0 +1,12 @@
+# USAMO 1990 P5
+Action(BaseAcuteTriangle, "", "CBA")
+Action(MidPoint, "AB", "O")
+Action(CenterCircle, "OB")
+Action(PerpendicularLine, "ACB", "H")
+Action(IntersectLineCircleOff, "CHOA", "NM")
+Action(MidPoint, "AC", "D")
+Action(CenterCircle, "DC")
+Action(PerpendicularLine, "ABC", "G")
+Action(IntersectLineCircleOff, "BGDA", "PQ")
+
+Fact("eqcircle", [Circle(None, [*"MNP"]), Circle(None, [*"MNQ"])])

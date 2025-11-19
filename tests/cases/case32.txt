@@ -1,0 +1,13 @@
+# USAMO 2008 P2
+Action(BaseAcuteTriangle, "", "CBA")
+Action(MidPoint, "BC", "M")
+Action(MidPoint, "AC", "N")
+Action(MidPoint, "AB", "P")
+Action(Perpendicular, "PAM", "D")
+Action(Perpendicular, "NAM", "E")
+Action(IntersectLineLine, "BDCE", "F")
+
+Action(CircumscribedCircle, "ANP", "Z")
+Action(IntersectLineCircleOn, "DPZ", "O")
+
+Fact("eqcircle", [Circle(None, [*"ANP"]), Circle(None, [*"ANF"])])

@@ -1,0 +1,21 @@
+# China TST 2018 T1 P3
+Action(BaseAcuteTriangle, "", "CBA")
+Action(InCenter, "ABC", "I")
+Action(IntersectLineLine, "AIBC", "Z")
+Action(AnyPoint, "ZI", "Y")
+Action(PerpendicularLine, "AYB", "D")
+Action(PerpendicularLine, "AYC", "E")
+Action(CenterCircle, "BD")
+Action(CenterCircle, "CE")
+Action(IntersectLineCircleOff, "CBBD", "FX")
+Action(IntersectLineCircleOff, "CBCE", "TG")
+Action(IntersectLineLine, "DGEF", "K")
+Action(IntersectLineLine, "DFEG", "R")
+Action(ExtendEqual, "RY", "L")
+
+Action(CenterCircle, "YE")
+# Action(PerpendicularLine, "BYC", "S")
+Action(IntersectLineCircleOn, "FEY", "H")
+Action(IntersectLineCircleOn, "GDY", "J")
+
+Fact("eqline", [Segment(*"IK"),Segment(*"KL")])

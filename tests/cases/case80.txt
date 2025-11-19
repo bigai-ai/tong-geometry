@@ -1,0 +1,19 @@
+# China TST 2018 T3 P5
+Action(BaseAcuteTriangle, "", "CBZ")
+Action(CircumscribedCircle, "CBZ", "O")
+Action(AnyArc, "BCO", "A")
+Action(MidPoint, "AB", "Y")
+Action(Perpendicular, "BOY", "P")
+Action(MidPoint, "AC", "X")
+Action(Perpendicular, "COX", "Q")
+Action(PerpendicularLine, "BPC", "D")
+Action(PerpendicularLine, "BQC", "E")
+Action(MidPoint, "DE", "M")
+Action(IntersectLineLine, "DYEX", "H")
+
+Action(CircumscribedCircle, "ABE", "W")
+Action(CircumscribedCircle, "ACD", "V")
+Action(IntersectLineCircleOn, "PAW", "F")
+# Action(IntersectLineCircleOn, "PAV", "G")
+
+Fact("eqline", [Segment(*"OH"),Segment(*"OM")])

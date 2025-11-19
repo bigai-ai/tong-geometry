@@ -1,0 +1,23 @@
+# China TST 2021 T4 P2
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "CBA", "O")
+Action(InCenter, "ABC", "I")
+Action(MidArc, "CBO", "M")
+Action(MidArc, "BCO", "N")
+Action(PerpendicularLine, "MAO", "a")
+Action(ExtendEqual, "Aa", "D")
+Action(Perpendicular, "BIA", "H")
+Action(PerpendicularLine, "BHC", "E")
+Action(Parallel, "ICBA", "J")
+Action(PerpendicularLine, "AEI", "b")
+Action(ExtendEqual, "Eb", "P")
+Action(IntersectLineLine, "APIJ", "F")
+Action(IntersectLineCircleOn, "FNO", "G")
+Action(IntersectLineLine, "AGIF", "L")
+Action(IntersectLineLine, "APDI", "K")
+Action(IntersectLineCircleOn, "LMO", "Q")
+
+Action(IntersectLineCircleOn, "FAO", "T")
+
+Fact("perp", [Angle(*"MQN")])
+Fact("eqline", [Segment(*"QN"), Segment(*"QK")])

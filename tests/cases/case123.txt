@@ -1,0 +1,13 @@
+# IMO 2009 P2
+Action(BaseAcuteTriangle, "", "LKM")
+Action(CircumscribedCircle, "KML", "Z")
+Action(AnyPoint, "MZ", "m")
+Action(CenterCircle, "Mm", "")
+Action(Perpendicular, "MmL", "p")
+Action(IntersectLineCircleOff, "pMMm", "QP")
+Action(ExtendEqual, "QL", "C")
+Action(ExtendEqual, "PK", "B")
+Action(IntersectLineLine, "BQCP", "A")
+Action(CircumscribedCircle, "ABC", "O")
+
+Fact("cong", [Segment(*"OP"), Segment(*"OQ")])

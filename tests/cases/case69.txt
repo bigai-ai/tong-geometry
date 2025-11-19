@@ -1,0 +1,13 @@
+# IMO 1992 P2
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(Perpendicular, "AOC", "Z")
+Action(IntersectLineLine, "AZBC", "Y")
+Action(CenterCircle, "YA")
+Action(IntersectLineCircleOff, "BCYA", "WX")
+Action(AnyArc, "XAY", "P")
+Action(InCenter, "APB", "D")
+Action(InCenter, "APC", "E")
+Action(IntersectLineLine, "APBD", "L")
+
+Fact("eqline", [Segment(*"CE"), Segment(*"CL")])

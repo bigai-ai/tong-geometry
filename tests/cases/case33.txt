@@ -1,0 +1,12 @@
+# USAMO 2005 P3
+Action(BaseAcuteTriangle, "", "CBA")
+Action(MidPoint, "BC", "M")
+Action(AnyPoint, "BM", "P")
+Action(AnyPoint, "CM", "Q")
+Action(CircumscribedCircle, "ABP", "X")
+Action(Parallel, "QCAB", "D")
+Action(IntersectLineCircleOff, "QDXA", "FE")
+Action(CircumscribedCircle, "APC", "Y")
+Action(IntersectLineCircleOn, "FAY", "I")
+
+Fact("eqcircle", [Circle(None, [*"FPQ"]), Circle(None, [*"FPI"])])

@@ -1,0 +1,18 @@
+# IMO 1999 P5
+Action(BaseAcuteTriangle, "", "baM")
+Action(CircumscribedCircle, "baM", "O")
+Action(AnyPoint, "MO", "P")
+Action(CenterCircle, "PM")
+Action(AnyArc, "abO", "N")
+Action(IntersectLineCircleOff, "ONPM", "qQ")
+Action(CenterCircle, "QN")
+Action(IntersectCircleCircle, "PMQN", "de")
+Action(IntersectLineCircleOff, "deOM", "BA")
+Action(IntersectLineCircleOn, "AMP", "C")
+Action(IntersectLineCircleOn, "BMP", "D")
+Action(IntersectLineCircleOff, "PQQN", "Tt")
+
+Action(IntersectLineCircleOn, "QMO", "W")
+
+Fact("perp", [Angle(*"CTQ")])
+Fact("perp", [Angle(*"DTQ")])

@@ -1,0 +1,15 @@
+# USAMO 2009 P5
+Action(BaseAcuteTriangle, "", "CDA")
+Action(CircumscribedCircle, "CDA", "O")
+Action(MidPoint, "AC", "d")
+Action(ExtendEqual, "Dd", "E")
+Action(IntersectLineCircleOn, "EAO", "B")
+Action(InCenter, "DBC", "Z")
+# Action(IntersectLineLine, "BZDC", "F")
+Action(AnyPoint, "BZ", "G")
+Action(IntersectLineCircleOn, "GAO", "P")
+Action(IntersectLineCircleOn, "ZBO", "Q")
+Action(Parallel, "GDCB", "S")
+Action(Parallel, "GCDB", "R")
+
+Fact("eqcircle", [Circle(None, [*"PQR"]), Circle(None, [*"PRS"])])

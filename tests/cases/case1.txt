@@ -1,0 +1,18 @@
+# CMO in Senior from Siyu
+Action(BaseAcuteTriangle, "", "CBA")
+Action(PerpendicularLine, "CBA", "E")
+Action(PerpendicularLine, "BCA", "F")
+Action(IntersectLineLine, "BECF", "H")
+Action(CircumscribedCircle, "ABC", "I")
+Action(MidPoint, "BC", "M")
+Action(IntersectLineCircleOn, "MAI", "D")
+Action(CircumscribedCircle, "EFD", "P")
+Action(PerpendicularLine, "IDP", "a")
+Action(ExtendEqual, "Da", "G")
+
+# Action(IntersectLineCircleOn, "IAI", "L")
+# Action(IntersectLineCircleOn, "HLI", "J")
+Action(PerpendicularLine, "AHM", "N")
+Action(IntersectLineLine, "NHBC", "K")
+
+Fact("perp", [Angle(*"DGH")])

@@ -1,0 +1,22 @@
+matplotlib
+pytest
+pytest-xdist
+numpy
+pylint==3.0.2
+streamlit
+graphviz
+scipy
+tqdm
+yapf
+torch
+transformers
+datasets
+accelerate
+evaluate
+scikit-learn
+tensorboard
+beautifulsoup4
+seaborn
+# deepspeed-kernels # build essential for deepspeed from source
+pynvml
+openai

@@ -1,0 +1,13 @@
+# IMO 2012 P1
+Action(BaseAcuteTriangle, "", "CBA")
+Action(InCenter, "ABC", "I")
+Action(Perpendicular, "BIA", "J")
+Action(PerpendicularLine, "BJC", "M")
+Action(PerpendicularLine, "AJB", "K")
+Action(PerpendicularLine, "AJC", "L")
+Action(IntersectLineLine, "LMBJ", "F")
+Action(IntersectLineLine, "KMCJ", "G")
+Action(IntersectLineLine, "AFBC", "S")
+Action(IntersectLineLine, "AGBC", "T")
+
+Fact("midp", ["M", Segment(*"ST")])

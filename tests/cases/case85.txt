@@ -1,0 +1,14 @@
+# China TST 2002 Q6 P2
+Action(BaseAcuteTriangle, "", "DZP")
+Action(PerpendicularLine, "DPZ", "p")
+Action(ExtendEqual, "Pp", "Q")
+Action(CircumscribedCircle, "DZP", "O")
+Action(PerpendicularLine, "DPO", "a")
+Action(PerpendicularLine, "ZPO", "b")
+Action(ExtendEqual, "Pa", "A")
+Action(ExtendEqual, "Pb", "B")
+Action(PerpendicularLine, "PQA", "U")
+Action(PerpendicularLine, "PQB", "W")
+Action(PerpendicularLine, "AQB", "V")
+
+Fact("eqcircle", [Circle("Q", ["U"]), Circle(None, [*"UVW"])])

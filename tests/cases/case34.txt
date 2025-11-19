@@ -1,0 +1,22 @@
+# USAMO 2001 P2
+Action(BaseAcuteTriangle, "", "CBA")
+Action(InCenter, "ABC", "I")
+Action(PerpendicularLine, "AIC", "E")
+Action(PerpendicularLine, "BIC", "D")
+Action(CenterCircle, "ID")
+Action(IntersectLineCircleOn, "IDI", "Q")
+Action(IntersectLineLine, "AQBC", "G")
+Action(IntersectLineCircleOn, "IEI", "H")
+Action(IntersectLineLine, "AQBH", "P")
+
+Action(PerpendicularLine, "AIB", "F")
+Action(IntersectLineLine, "BHAC", "J")
+Action(Parallel, "QBCA", "K")
+Action(IntersectLineLine, "QKAB", "L")
+Action(Parallel, "HACB", "M")
+# Action(IntersectLineLine, "HMAB", "N")
+# Action(Perpendicular, "CIA", "O")
+Action(MidPoint, "BC", "R")
+Action(MidPoint, "AC", "S")
+
+Fact("cong", [Segment(*"AQ"), Segment(*"GP")])

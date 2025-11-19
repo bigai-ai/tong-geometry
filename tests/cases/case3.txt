@@ -1,0 +1,8 @@
+Action(BaseAcuteTriangle, "", "CBA")
+Action(MidPoint, "AB", "F")
+Action(MidPoint, "AC", "E")
+Action(MidPoint, "BC", "D")
+Action(MidPoint, "DE", "G")
+Action(IntersectLineLine, "AGFD", "H")
+
+Fact("para", [Segment(*"CG"), Segment(*"BH")])

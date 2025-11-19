@@ -1,0 +1,16 @@
+# ISL 1991 P2
+Action(BaseAcuteTriangle, "", "CBA")
+Action(MidPoint, "BC", "M")
+Action(CenterCircle, "MB")
+Action(IntersectLineCircleOff, "AMMB", "PZ")
+Action(PerpendicularLine, "BPC", "H")
+Action(PerpendicularLine, "PHB", "X")
+Action(PerpendicularLine, "PHC", "Y")
+Action(IntersectLineLine, "HXAB", "Q")
+Action(IntersectLineLine, "HYAC", "R")
+Action(CircumscribedCircle, "QHR", "D")
+
+Action(IntersectLineLine, "BPAC", "E")
+Action(IntersectLineLine, "CPAB", "F")
+
+Fact("eqline", [Segment(*"DH"), Segment(*"DP")])

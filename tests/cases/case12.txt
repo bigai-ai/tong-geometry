@@ -1,0 +1,13 @@
+Action(BaseAcuteTriangle, "", "BCA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(MidPoint, "AC", "M")
+Action(Parallel, "MABC", "N")
+Action(Perpendicular, "AOM", "F")
+Action(IntersectLineLine, "MNAF", "D")
+Action(ExtendEqual, "DA", "E")
+Action(CircumscribedCircle, "ABE", "G")
+Action(IntersectLineCircleOn, "CAG", "P")
+Action(CircumscribedCircle, "ADP", "H")
+Action(IntersectLineCircleOn, "MDH", "Q")
+
+Fact("eqangle", [Angle(*"QCB"), Angle(*"BAC")])

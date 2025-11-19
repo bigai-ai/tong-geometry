@@ -1,0 +1,9 @@
+# Simons Line
+Action(BaseAcuteTriangle, "", "ACB")
+Action(CircumscribedCircle, "ABC", "O")
+Action(AnyArc, "CAO", "P")
+Action(PerpendicularLine, "BPA", "D")
+Action(PerpendicularLine, "BPC", "E")
+Action(PerpendicularLine, "APC", "F")
+
+Fact("eqline", [Segment(*"DE"), Segment(*"EF")])

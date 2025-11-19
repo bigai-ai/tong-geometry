@@ -1,0 +1,19 @@
+# IMO 2023 P2
+Action(BaseAcuteTriangle, "", "BCA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(MidArc, "BCO", "S")
+Action(PerpendicularLine, "BAC", "F")
+Action(IntersectLineLine, "AFBS", "D")
+Action(IntersectLineCircleOn, "FAO", "E")
+Action(Parallel, "DCBE", "L")
+Action(CircumscribedCircle, "DBL", "M")
+Action(PerpendicularLine, "OBM", "a")
+Action(ExtendEqual, "Ba", "P")
+Action(InCenter, "BAC", "Z")
+# Action(IntersectLineLine, "AZBC", "I")
+Action(IntersectLineLine, "AZBS", "H")
+
+Action(IntersectLineCircleOn, "OSO","J")
+Action(IntersectLineCircleOn, "OAO", "K")
+
+Fact("perp", [Angle(*"HPM")])

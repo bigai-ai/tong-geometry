@@ -1,0 +1,23 @@
+# ISL 2002 G8
+Action(BaseAcuteTriangle, "", "CDB")
+Action(AnyPoint, "CD", "A")
+Action(CircumscribedCircle, "CAB", "c")
+Action(CircumscribedCircle, "DAB", "d")
+Action(MidPoint, "CD", "b")
+Action(AnyPoint, "Ab", "M")
+Action(Parallel, "MDBC", "N")
+Action(Parallel, "MCBD", "K")
+Action(Perpendicular, "KBd", "X")
+Action(Perpendicular, "NBc", "Y")
+Action(IntersectLineCircleOff, "KXdB", "fF")
+Action(IntersectLineCircleOff, "NYcB", "Ee")
+
+Action(MidPoint, "BC", "J")
+Action(ExtendEqual, "NJ", "L")
+Action(MidPoint, "BD", "O")
+Action(ExtendEqual, "KO", "P")
+Action(IntersectLineLine, "MKEB", "Q")
+Action(ExtendEqual, "Ec", "S")
+Action(ExtendEqual, "Fd", "s")
+
+Fact("perp", [Angle(*"FME")])

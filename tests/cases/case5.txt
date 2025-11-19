@@ -1,0 +1,6 @@
+Action(BaseAcuteTriangle, "", "BAN")
+Action(Perpendicular, "ABN", "C")
+Action(Perpendicular, "BAN", "D")
+Action(PerpendicularLine, "ANB", "M")
+
+Fact("simtri", [Triangle(*"CAM"), Triangle(*"DBM")])

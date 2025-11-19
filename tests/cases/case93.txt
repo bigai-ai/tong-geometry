@@ -1,0 +1,18 @@
+# China TST 2006 D3 P1
+Action(BaseAcuteTriangle, "", "ACB")
+Action(CircumscribedCircle, "ACB", "O")
+Action(AnyArc, "CAO", "D")
+Action(IntersectLineLine, "ACBD", "P")
+Action(CircumscribedCircle, "OAB", "E")
+Action(CircumscribedCircle, "OBC", "F")
+Action(CircumscribedCircle, "OCD", "G")
+Action(CircumscribedCircle, "ODA", "H")
+Action(IntersectLineLine, "EGOP", "I")
+
+Action(PerpendicularLine, "EOG", "a")
+Action(ExtendEqual, "Oa", "Q")
+# Action(IntersectLineLine, "OQEG", "M")
+Action(PerpendicularLine, "FOH", "b")
+Action(ExtendEqual, "Ob", "R")
+
+Fact("eqline", [Segment(*"FH"), Segment(*"FI")])

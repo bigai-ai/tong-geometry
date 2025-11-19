@@ -1,0 +1,17 @@
+# China TST 2004 Q3 P2
+Action(BaseAcuteTriangle, "", "PQA")
+Action(CircumscribedCircle, "QAP", "X")
+Action(PerpendicularLine, "PXQ", "O")
+Action(ExtendEqual, "XO", "Y")
+Action(CenterCircle, "YQ")
+Action(IntersectLineCircleOn, "APY", "B")
+# Action(MidPoint, "PQ", "O")
+Action(AnyArc, "PAX", "C")
+Action(IntersectLineCircleOn, "CPY", "D")
+Action(MidPoint, "AD", "M")
+Action(MidPoint, "BC", "N")
+
+Action(Parallel, "YXAO", "E")
+Action(Parallel, "YXCO", "F")
+
+Fact("eqline", [Segment(*"OM"), Segment(*"ON")])

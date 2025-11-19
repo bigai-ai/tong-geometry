@@ -1,0 +1,17 @@
+# USAJMO 2023 P6
+Action(BaseAcuteTriangle, "", "CBZ")
+Action(CircumscribedCircle, "ZBC", "O")
+Action(MidArc, "CBO", "A")
+Action(AnyPoint, "BC", "D")
+Action(IntersectLineCircleOn, "DAO", "E")
+Action(MidPoint, "DE", "W")
+Action(PerpendicularLine, "OEW", "V")
+Action(IntersectLineLine, "EVAB", "X")
+Action(IntersectLineLine, "EVAC", "Y")
+
+Action(CircumscribedCircle, "BDA", "G")
+Action(CircumscribedCircle, "CDA", "H")
+Action(IntersectLineCircleOn, "XDG", "I")
+Action(IntersectLineCircleOn, "YDH", "J")
+
+Fact("eqangle", [Angle(*"EDX"),Angle(*"YDE")])

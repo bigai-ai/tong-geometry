@@ -1,0 +1,18 @@
+# IMO 1995 P1
+Action(BaseAcuteTriangle, "", "CBX")
+Action(PerpendicularLine, "CXB", "Z")
+Action(ExtendEqual, "XZ", "Y")
+Action(AnyPoint, "XZ", "P")
+Action(MidPoint, "XC", "c")
+Action(MidPoint, "XB", "b")
+Action(Perpendicular, "cCB", "a")
+Action(Perpendicular, "bBC", "d")
+Action(ExtendEqual, "Ca", "A")
+Action(ExtendEqual, "Bd", "D")
+Action(CenterCircle, "aC", "")
+Action(CenterCircle, "dB", "")
+Action(IntersectLineCircleOn, "PCa", "M")
+Action(IntersectLineCircleOn, "PBd", "N")
+Action(IntersectLineLine, "AMDN", "z")
+
+Fact("eqline", [Segment(*"XY"), Segment(*"Xz")])

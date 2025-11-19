@@ -1,0 +1,21 @@
+# China TST 2014 T2 P4
+Action(BaseAcuteTriangle, "", "ABC")
+Action(CircumscribedCircle, "ABC", "O")
+Action(PerpendicularLine, "BAC", "X")
+Action(PerpendicularLine, "ABC", "Y")
+Action(PerpendicularLine, "ACB", "Z")
+Action(IntersectLineLine, "AXBY", "H")
+Action(PerpendicularLine, "YXZ", "K")
+Action(ExtendEqual, "XK", "D")
+Action(PerpendicularLine, "XYZ", "I")
+Action(ExtendEqual, "YI", "E")
+Action(IntersectLineLine, "ADBE", "P")
+
+# Action(IntersectLineLine, "OBXZ", "F")
+Action(MidPoint, "AB", "G")
+# Action(IntersectLineLine, "EYXZ", "I")
+# Action(IntersectLineLine, "OAYZ", "J")
+# Action(IntersectLineLine, "DXYZ", "K")
+Action(CircumscribedCircle, "GXY", "L")
+
+Fact("eqratio", [Ratio(Segment(*"BO"), Segment(*"HO")), Ratio(Segment(*"PO"), Segment(*"BO"))])

@@ -1,0 +1,19 @@
+# ISL 2020 G7 part1
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(AnyArc, "CBO", "P")
+Action(MidPoint, "AB", "c")
+Action(MidPoint, "AC", "b")
+Action(PerpendicularLine, "ABC", "K")
+Action(PerpendicularLine, "ACB", "L")
+Action(PerpendicularLine, "bPc", "d")
+Action(ExtendEqual, "Pd", "D")
+Action(CircumscribedCircle, "BPK", "H")
+Action(CircumscribedCircle, "CPL", "I")
+Action(PerpendicularLine, "HPI", "p")
+Action(ExtendEqual, "Pp", "N")
+
+Action(PerpendicularLine, "BAC", "J")
+Action(IntersectLineLine, "BKCL", "M")
+
+Fact("eqcircle", [Circle(None, [*"APD"]), Circle(None, [*"APN"])])

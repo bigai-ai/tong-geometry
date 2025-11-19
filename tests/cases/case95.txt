@@ -1,0 +1,21 @@
+# China TST 2007 T2 P2
+Action(BaseAcuteTriangle, "", "CBA")
+Action(InCenter, "ABC", "I")
+# Action(MidPoint, "AB", "M")
+# Action(MidPoint, "AC", "N")
+Action(CenterCircle, "BC")
+Action(IntersectLineCircleOff, "BABC", "FD")
+Action(CenterCircle, "CB")
+Action(IntersectLineCircleOff, "CACB", "GE")
+# Action(PerpendicularLine, "IDM", "U")
+# Action(PerpendicularLine, "IEN", "V")
+# Action(IntersectLineLine, "DUEV", "P")
+# Action(IntersectLineLine, "APBC", "W")
+Action(CircumscribedCircle, "ABC", "O")
+Action(IntersectLineLine, "DEOI", "J")
+
+Action(PerpendicularLine, "AIC", "a")
+# Action(IntersectLineLine, "BECI", "L")
+Action(IntersectLineCircleOn, "ICO", "H")
+
+Fact("perp", [Angle(*"EJO")])

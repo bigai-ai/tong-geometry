@@ -1,0 +1,17 @@
+# USATST 2023 P2
+Action(BaseAcuteTriangle, "", "CBA")
+Action(MidPoint, "BC", "M")
+Action(PerpendicularLine, "ABC", "E")
+Action(PerpendicularLine, "ACB", "F")
+Action(CircumscribedCircle, "BME", "X")
+Action(CircumscribedCircle, "CMF", "Y")
+Action(CircumscribedCircle, "ABC", "Z")
+Action(IntersectLineLine, "BECF", "H")
+Action(IntersectLineCircleOn, "HAZ", "T")
+Action(MidArc, "BCZ", "L")
+Action(IntersectLineLine, "XYTL", "K")
+Action(MidPoint, "KX", "O")
+Action(CenterCircle, "OX", "")
+Action(IntersectCircleCircle, "OXXB", "xy")
+
+Fact("cong", [Segment(*"Xx"), Segment(*"XB")])

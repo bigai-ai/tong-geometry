@@ -1,0 +1,16 @@
+# USAMO 2018 P5
+Action(BaseAcuteTriangle, "", "DBA")
+Action(CircumscribedCircle, "DBA", "O")
+Action(AnyArc, "BDO", "C")
+Action(IntersectLineLine, "DABC", "G")
+Action(IntersectLineLine, "ACBD", "E")
+Action(IntersectLineLine, "ABCD", "F")
+Action(CircumscribedCircle, "ABE", "H")
+Action(CircumscribedCircle, "ADE", "I")
+Action(IntersectLineCircleOn, "CBH", "P")
+Action(IntersectLineCircleOn, "CDI", "Q")
+Action(IntersectLineLine, "FPGQ", "M")
+
+Action(IntersectLineLine, "BQDP", "X")
+
+Fact("perp", [Angle(*"MAC")])

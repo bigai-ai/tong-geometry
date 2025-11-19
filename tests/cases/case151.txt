@@ -1,0 +1,14 @@
+# USATST 2015 P1
+Action(BaseAcuteTriangle, "", "CBA")
+Action(InCenter, "ABC", "I")
+Action(PerpendicularLine, "BIC", "D")
+Action(MidPoint, "BC", "M")
+Action(ExtendEqual, "DM", "T")
+Action(CenterCircle, "MD")
+Action(IntersectLineCircleOn, "ATM", "Q")
+Action(PerpendicularLine, "AIB", "F")
+Action(IntersectLineLine, "AIDF", "P")
+
+Action(PerpendicularLine, "AIC", "E")
+
+Fact("perp", [Angle(*"FQP")])

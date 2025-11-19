@@ -1,0 +1,21 @@
+# ISL 2011 G5
+Action(BaseAcuteTriangle, "", "ABC")
+Action(CircumscribedCircle, "ABC", "O")
+Action(InCenter, "ABC", "I")
+Action(IntersectLineCircleOn, "IAO", "D")
+Action(IntersectLineCircleOn, "IBO", "E")
+Action(IntersectLineLine, "DEAC", "F")
+Action(IntersectLineLine, "DEBC", "G")
+Action(Parallel, "FADC", "H")
+Action(Parallel, "GBEC", "J")
+Action(IntersectLineLine, "FHGJ", "P")
+Action(MidPoint, "AB", "k")
+Action(Perpendicular, "AOk", "K")
+Action(IntersectLineLine, "AEBD", "Z")
+
+Action(CircumscribedCircle, "AEI", "a")
+Action(CircumscribedCircle, "BDI", "b")
+Action(PerpendicularLine, "aIb", "i")
+Action(ExtendEqual, "Ii", "L")
+
+Fact("eqline", [Segment(*"PZ"), Segment(*"KZ")])

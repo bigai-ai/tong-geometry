@@ -1,0 +1,16 @@
+# China TST 2009 T2 P1
+Action(BaseAcuteTriangle, "", "CSB")
+Action(CircumscribedCircle, "CSB", "o")
+Action(AnyPoint, "So", "O")
+Action(CenterCircle, "OS")
+Action(MidPoint, "BO", "M")
+Action(CenterCircle, "MB")
+Action(IntersectCircleCircle, "OSMB", "TE")
+Action(IntersectLineCircleOn, "TBo", "A")
+Action(Perpendicular, "BAO", "P")
+
+Action(MidPoint, "ST", "N")
+Action(Perpendicular, "NSA", "R")
+Action(CircumscribedCircle, "BTS", "D")
+
+Fact("perp", [Angle(*"PST")])

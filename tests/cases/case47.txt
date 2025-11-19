@@ -1,0 +1,21 @@
+# IMO 2015 P3
+Action(BaseAcuteTriangle, "", "BCA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(PerpendicularLine, "BAC", "F")
+Action(MidPoint, "BC", "M")
+Action(PerpendicularLine, "ABC", "Z")
+Action(PerpendicularLine, "ACB", "Y")
+Action(IntersectLineLine, "BZCY", "H")
+Action(MidPoint, "AH", "T")
+# Action(CenterCircle, "TA")
+Action(PerpendicularLine, "OAT", "a")
+Action(ExtendEqual, "Aa", "Q")
+Action(MidPoint, "HQ", "N")
+# Action(CenterCircle, "NH")
+Action(PerpendicularLine, "NQO", "b")
+Action(ExtendEqual, "Qb", "K")
+Action(CircumscribedCircle, "FKM", "D")
+
+Action(MidPoint, "OT", "E")
+
+Fact("eqline", [Segment(*"DN"), Segment(*"NK")])

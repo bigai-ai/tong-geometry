@@ -1,0 +1,16 @@
+# TSTST 2013 P1
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(PerpendicularLine, "ABC", "E")
+Action(PerpendicularLine, "ACB", "F")
+Action(IntersectLineLine, "BECF", "H")
+Action(AnyArc, "BCO", "D")
+Action(PerpendicularLine, "ADC", "I")
+Action(PerpendicularLine, "ADB", "J")
+Action(IntersectLineLine, "IJHD", "N")
+
+Action(PerpendicularLine, "CDB", "K")
+Action(IntersectLineCircleOn, "HAO", "M")
+Action(IntersectLineLine, "AHIJ", "Z")
+
+Fact("cong", [Segment(*"DN"), Segment(*"HN")])

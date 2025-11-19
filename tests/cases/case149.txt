@@ -1,0 +1,22 @@
+# USATST 2019 P1
+Action(BaseAcuteTriangle, "", "CBA")
+Action(MidPoint, "AB", "M")
+Action(MidPoint, "AC", "N")
+Action(CircumscribedCircle, "ABC", "O")
+Action(AnyPoint, "BC", "Z")
+Action(Perpendicular, "AOZ", "X")
+# Action(Perpendicular, "MXZ", "D")
+Action(Perpendicular, "NXZ", "E")
+# Action(MidPoint, "BM", "W")
+Action(MidPoint, "CN", "V")
+# Action(Perpendicular, "WMD", "b")
+Action(Perpendicular, "VNE", "c")
+# Action(CenterCircle, "bB")
+# Action(CenterCircle, "cC")
+Action(IsogonalConjugate, "AMNX", "Y")
+Action(PerpendicularLine, "MYN", "U")
+Action(IntersectLineLine, "YUBC", "z")
+
+Action(IntersectLineLine, "YzAC", "F")
+
+Fact("cong", [Segment(*"cz"), Segment(*"cC")])

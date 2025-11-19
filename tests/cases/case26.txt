@@ -1,0 +1,13 @@
+# Property of Incenter from Siyu
+Action(BaseAcuteTriangle, "", "CBA")
+Action(InCenter, "ABC", "I")
+Action(PerpendicularLine, "AIC", "E")
+Action(PerpendicularLine, "AIB", "F")
+Action(PerpendicularLine, "BIC", "D")
+Action(IntersectLineLine, "DIEF", "K")
+Action(MidPoint, "BC", "M")
+
+Action(Parallel, "KCBA", "S")
+Action(Parallel, "KBCA", "T")
+
+Fact("eqline", [Segment(*"AK"), Segment(*"KM")])

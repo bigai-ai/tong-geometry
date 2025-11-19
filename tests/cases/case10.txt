@@ -1,0 +1,11 @@
+# Euler line
+Action(BaseAcuteTriangle, "", "CBA")
+Action(CircumscribedCircle, "ABC", "O")
+Action(PerpendicularLine, "ACB", "D")
+Action(PerpendicularLine, "ABC", "E")
+Action(IntersectLineLine, "CDBE", "H")
+Action(MidPoint, "AB", "F")
+Action(MidPoint, "AC", "I")
+Action(IntersectLineLine, "CFBI", "G")
+
+Fact("eqline", [Segment(*"OG"), Segment(*"OH")])

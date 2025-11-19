@@ -1,0 +1,17 @@
+# TSTST 2011 P4
+Action(BaseAcuteTriangle, "", "CBA")
+Action(PerpendicularLine, "CBA", "E")
+Action(PerpendicularLine, "BCA", "F")
+Action(IntersectLineLine, "BECF", "H")
+Action(CircumscribedCircle, "ABC", "O")
+Action(MidPoint, "AB", "M")
+Action(MidPoint, "AC", "N")
+Action(ExtendEqual, "BO", "R")
+Action(ExtendEqual, "CO", "S")
+Action(IntersectLineCircleOn, "HRO", "P")
+Action(IntersectLineCircleOn, "HSO", "Q")
+Action(IntersectLineLine, "PQMN", "T")
+
+Action(CircumscribedCircle, "AMN", "X")
+
+Fact("perp", [Angle(*"TAO")])

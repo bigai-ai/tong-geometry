@@ -1,0 +1,15 @@
+# IMO 1959 P5
+Action(BaseAcuteTriangle, "", "EeZ")
+Action(MidPoint, "Ee", "B")
+Action(CenterCircle, "BE")
+Action(MidArc, "EeB", "M")
+Action(ExtendEqual, "BM", "a")
+Action(AnyPoint, "aM", "A")
+Action(Parallel, "AEeM", "D")
+Action(MidPoint, "EM", "x")
+Action(MidPoint, "DM", "y")
+Action(ExtendEqual, "Bx", "F")
+Action(PerpendicularLine, "xMy", "m")
+Action(ExtendEqual, "Mm", "N")
+
+Fact("eqline", [Segment(*"AN"), Segment(*"NF")])

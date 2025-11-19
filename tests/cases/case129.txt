@@ -1,0 +1,15 @@
+# USAJMO 2016 P1
+Action(BaseAcuteTriangle, "", "CBZ")
+Action(CircumscribedCircle, "ZBC", "O")
+Action(MidArc, "CBO", "A")
+Action(AnyArc, "BCO", "P")
+Action(InCenter, "ABP", "b")
+Action(InCenter, "ACP", "c")
+Action(CircumscribedCircle, "bcP", "D")
+Action(PerpendicularLine, "OPD", "E")
+Action(ExtendEqual, "PE", "M")
+
+Action(IntersectLineCircleOn, "bPO", "F")
+Action(IntersectLineCircleOn, "cPO", "G")
+
+Fact("cong", [Segment(*"BM"), Segment(*"CM")])

@@ -1,0 +1,16 @@
+# IMO 2019 P2
+Action(BaseAcuteTriangle, "", "BAC")
+Action(CircumscribedCircle, "ABC", "O")
+Action(AnyPoint, "AC", "D")
+Action(AnyPoint, "BC", "E")
+Action(IntersectLineLine, "AEBD", "X")
+Action(AnyPoint, "BX", "Q")
+Action(Parallel, "QBAE", "P")
+# Action(IntersectLineCircleOn, "DBO", "T")
+# Action(CircumscribedCircle, "TDC", "G")
+# Action(IntersectLineCircleOn, "PDG", "I")
+Action(IntersectLineCircleOn, "EAO", "J")
+Action(CircumscribedCircle, "JEC", "K")
+Action(IntersectLineCircleOn, "QEK", "L")
+
+Fact("eqcircle", [Circle(None, [*"PQL"]), Circle(None, [*"QPJ"])])

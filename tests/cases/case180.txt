@@ -1,0 +1,19 @@
+# ISL 2017 G4
+Action(BaseAcuteTriangle, "", "CBA")
+Action(InCenter, "ABC", "I")
+Action(Perpendicular, "BIA", "a")
+Action(PerpendicularLine, "BaC", "D")
+Action(PerpendicularLine, "AaC", "E")
+# Action(PerpendicularLine, "AaB", "F")
+Action(CircumscribedCircle, "AEa", "G")
+Action(IntersectLineCircleOff, "BCGA", "PQ")
+Action(MidPoint, "AD", "M")
+Action(CircumscribedCircle, "PMQ", "H")
+Action(CenterCircle, "aD")
+Action(IntersectLineCircleOn, "ADa", "T")
+
+Action(MidPoint, "DT", "N")
+Action(IntersectLineLine, "aTBC", "J")
+Action(Perpendicular, "TJB", "R")
+
+Fact("eqline", [Segment(*"TH"), Segment(*"Ta")])

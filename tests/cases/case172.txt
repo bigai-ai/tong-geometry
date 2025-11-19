@@ -1,0 +1,22 @@
+# ISL 2014 G3
+Action(BaseAcuteTriangle, "", "CAB")
+Action(CircumscribedCircle, "ABC", "O")
+Action(MidArc, "ACO", "M")
+Action(MidPoint, "BM", "T")
+Action(CenterCircle, "TB")
+Action(MidPoint, "AB", "a")
+Action(MidPoint, "CB", "c")
+Action(IntersectLineCircleOff, "OaTB", "pP")
+Action(IntersectLineCircleOff, "OcTB", "qQ")
+Action(IntersectLineLine, "OTPQ", "R")
+Action(IntersectLineCircleOn, "OMT", "N")
+
+Action(MidPoint, "AC", "o")
+Action(MidPoint, "BO", "b")
+Action(InCenter, "PQO", "Z")
+Action(MidPoint, "PQ", "t")
+Action(IntersectLineLine, "OZTt", "D")
+Action(PerpendicularLine, "ZPO", "E")
+Action(ExtendEqual, "PE", "F")
+
+Fact("eqline", [Segment(*"BR"), Segment(*"BN")])

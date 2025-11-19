@@ -1,0 +1,22 @@
+# China TST 2008 T3 P1
+Action(BaseAcuteTriangle, "", "CBA")
+Action(AnyPoint, "BC", "Z")
+Action(AnyPoint, "AZ", "P")
+Action(IsogonalConjugate, "ABCP", "Q")
+Action(CircumscribedCircle, "PBC", "D")
+Action(CircumscribedCircle, "PCA", "E")
+Action(CircumscribedCircle, "PBA", "F")
+Action(CircumscribedCircle, "QBC", "G")
+Action(CircumscribedCircle, "QCA", "H")
+Action(CircumscribedCircle, "QBA", "I")
+Action(CircumscribedCircle, "DEF", "X")
+Action(CircumscribedCircle, "GHI", "Y")
+
+# Action(CircumscribedCircle, "ABC", "J")
+Action(IntersectLineLine, "EFHI", "K")
+Action(IntersectLineLine, "DFGI", "L")
+# Action(IntersectLineLine, "DEGH", "M")
+Action(IntersectLineLine, "KLXY", "N")
+Action(MidPoint, "PQ", "O")
+
+Fact("para", [Segment(*"PQ"), Segment(*"XY")])

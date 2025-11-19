@@ -1,0 +1,16 @@
+# IMO 2004 P1
+Action(BaseAcuteTriangle, "", "BCA")
+Action(MidPoint, "BC", "O")
+Action(CenterCircle, "OB")
+Action(IntersectLineCircleOn, "ABO", "M")
+Action(IntersectLineCircleOn, "ACO", "N")
+Action(InCenter, "ABC", "z")
+Action(IntersectLineLine, "AzBC", "Z")
+Action(InCenter, "MON", "R")
+# Action(IntersectLineLine, "ORMN", "Y")
+# Action(IntersectLineLine, "AZOY", "R")
+# Action(CircumscribedCircle, "BMR", "X")
+# Action(CircumscribedCircle, "CNR", "W")
+
+Fact("eqcircle", [Circle(None, [*"ZBM"]), Circle(None, [*"BMR"])])
+Fact("eqcircle", [Circle(None, [*"ZCN"]), Circle(None, [*"CNR"])])
