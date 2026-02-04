@@ -95,11 +95,13 @@ The model was trained using scripts in `model`, with resources managed by a Slur
 If you use this project in your research, please consider citing it.
 
 ```bibtex
-@article{zhang2024proposing,
+@article{zhang2026proposing,
   title={Proposing and solving olympiad geometry with guided tree search},
   author={Zhang, Chi and Song, Jiajun and Li, Siyu and Liang, Yitao and Ma, Yuxi and Wang, Wei and Zhu, Yixin and Zhu, Song-Chun},
-  journal={arXiv preprint arXiv:2412.10673},
-  year={2024}
+  journal={Nature Machine Intelligence},
+  pages={1--12},
+  year={2026},
+  publisher={Nature Publishing Group UK London}
 }
 ```
 
