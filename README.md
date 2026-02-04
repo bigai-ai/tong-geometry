@@ -99,7 +99,8 @@ If you use this project in your research, please consider citing it.
   title={Proposing and solving olympiad geometry with guided tree search},
   author={Zhang, Chi and Song, Jiajun and Li, Siyu and Liang, Yitao and Ma, Yuxi and Wang, Wei and Zhu, Yixin and Zhu, Song-Chun},
   journal={Nature Machine Intelligence},
-  pages={1--12},
+  volume={8},
+  pages={84--95},
   year={2026},
   publisher={Nature Publishing Group UK London}
 }
