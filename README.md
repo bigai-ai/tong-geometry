@@ -84,11 +84,11 @@ The [online manual](https://docs.google.com/presentation/d/189nRtv4w5q1yobcQivPL
 
 ### Data Generation
 
-TongGeometry replies on a large amount of auto-generated geometry data. In the project, we rented 10k CPU cores from the Volcengine and ran the distributed data generation program for 30 days. If you want to run your own, feel free to checkout `launch.sh`. To benefit the entire research community, we would also like to openly share all our generated data [here]().
+TongGeometry replies on a large amount of auto-generated geometry data. In the project, we rented 10k CPU cores from the Volcengine and ran the distributed data generation program for 30 days. If you want to run your own, feel free to checkout `launch.sh`. To benefit the entire research community, we would also like to openly share all our generated data [here](https://pan.baidu.com/s/1EhIHVnBptrpX8kiZKYFo9A?pwd=dvwp).
 
 ### Model Training
 
-The model was trained using scripts in `model`, with resources managed by a Slurm cluster. Detailed multi-stage training pipeline can be found in our paper. The trained model checkpoints can be found [here]().
+The model was trained using scripts in `model`, with resources managed by a Slurm cluster. Detailed multi-stage training pipeline can be found in our paper. The trained model checkpoints can be found here ([LM_S](https://pan.baidu.com/s/1Uc9SLIeQgCYHQrkMEF6Qkg?pwd=83sv), [LM_L](https://pan.baidu.com/s/1sqWt8oAaisB5scm5H6AZzg?pwd=gcmj) and [Process Reward Model](https://pan.baidu.com/s/1Gnbsjga9yFSr9rCiEygAcA?pwd=2mbt)).
 
 ## Citation
 
